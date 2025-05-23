@@ -396,11 +396,11 @@
   <programme start="20250523002300 +0800" stop="20250523011600 +0800" channel="4">
     <title lang="zh">乡村振兴中国行Ⅳ(9)</title>
   </programme>
-  <programme start="20250523011600 +0800" stop="20250523015900 +0800" channel="4">
+  <programme start="20250523011600 +0800" stop="20250523020000 +0800" channel="4">
     <title lang="zh">对话</title>
   </programme>
-  <programme start="20250523015900 +0800" stop="20250523022300 +0800" channel="4">
-    <title lang="zh">周末特供</title>
+  <programme start="20250523020000 +0800" stop="20250523022300 +0800" channel="4">
+    <title lang="zh">消费主张精编</title>
   </programme>
   <programme start="20250523022300 +0800" stop="20250523025100 +0800" channel="4">
     <title lang="zh">精品财经纪录：晋在眼前(4)</title>
@@ -2559,6 +2559,81 @@
   <programme start="20250523230700 +0800" stop="20250524004900 +0800" channel="30">
     <title lang="zh">红色影像馆</title>
   </programme>
+  <channel id="31">
+    <display-name lang="zh">湖南卫视高清</display-name>
+  </channel>
+  <programme start="20250523000000 +0800" stop="20250523000700 +0800" channel="31">
+    <title lang="zh">跟着环塔看新疆</title>
+  </programme>
+  <programme start="20250523000700 +0800" stop="20250523005700 +0800" channel="31">
+    <title lang="zh">中国(8)</title>
+  </programme>
+  <programme start="20250523035200 +0800" stop="20250523043700 +0800" channel="31">
+    <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250523043700 +0800" stop="20250523050600 +0800" channel="31">
+    <title lang="zh">平民英雄</title>
+  </programme>
+  <programme start="20250523050600 +0800" stop="20250523060400 +0800" channel="31">
+    <title lang="zh">新闻大求真</title>
+  </programme>
+  <programme start="20250523060400 +0800" stop="20250523063300 +0800" channel="31">
+    <title lang="zh">跟着环塔看新疆</title>
+  </programme>
+  <programme start="20250523063300 +0800" stop="20250523070000 +0800" channel="31">
+    <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250523070000 +0800" stop="20250523070100 +0800" channel="31">
+    <title lang="zh">中华人民共和国国歌</title>
+  </programme>
+  <programme start="20250523070100 +0800" stop="20250523073000 +0800" channel="31">
+    <title lang="zh">湖南新闻联播</title>
+  </programme>
+  <programme start="20250523073000 +0800" stop="20250523080000 +0800" channel="31">
+    <title lang="zh">爱情真善美</title>
+  </programme>
+  <programme start="20250523080000 +0800" stop="20250523084000 +0800" channel="31">
+    <title lang="zh">萌宝战警之幻世虫界</title>
+  </programme>
+  <programme start="20250523084000 +0800" stop="20250523121000 +0800" channel="31">
+    <title lang="zh">爱情真善美</title>
+  </programme>
+  <programme start="20250523121000 +0800" stop="20250523123000 +0800" channel="31">
+    <title lang="zh">午间新闻</title>
+  </programme>
+  <programme start="20250523123000 +0800" stop="20250523153000 +0800" channel="31">
+    <title lang="zh">爱情真善美</title>
+  </programme>
+  <programme start="20250523153000 +0800" stop="20250523173000 +0800" channel="31">
+    <title lang="zh">爱的厘米</title>
+  </programme>
+  <programme start="20250523173000 +0800" stop="20250523180000 +0800" channel="31">
+    <title lang="zh">跟着环塔看新疆</title>
+  </programme>
+  <programme start="20250523180000 +0800" stop="20250523183000 +0800" channel="31">
+    <title lang="zh">跟着环塔看新疆</title>
+  </programme>
+  <programme start="20250523183000 +0800" stop="20250523190000 +0800" channel="31">
+    <title lang="zh">湖南新闻联播</title>
+  </programme>
+  <programme start="20250523190000 +0800" stop="20250523193000 +0800" channel="31">
+    <title lang="zh">转播中央台新闻联播</title>
+  </programme>
+  <programme start="20250523193000 +0800" stop="20250523194500 +0800" channel="31">
+    <title lang="zh">好看在芒</title>
+  </programme>
+  <programme start="20250523194500 +0800" stop="20250523200000 +0800" channel="31">
+    <title lang="zh">歌手2025上场倒计时(2)</title>
+  </programme>
+  <programme start="20250523200000 +0800" stop="20250523220000 +0800" channel="31">
+    <title lang="zh">歌手2025(2)</title>
+  </programme>
+  <programme start="20250523220000 +0800" stop="20250523230000 +0800" channel="31">
+    <title lang="zh">歌手2025</title>
+  </programme>
+  <programme start="20250523230000 +0800" stop="20250523235959 +0800" channel="31">
+    <title lang="zh">歌手2025</title>
+  </programme>
   <channel id="32">
     <display-name lang="zh">浙江卫视高清</display-name>
   </channel>
@@ -3207,7 +3282,7 @@
   <channel id="38">
     <display-name lang="zh">辽宁卫视高清</display-name>
   </channel>
-  <programme start="20250523031600 +0800" stop="20250523034200 +0800" channel="38">
+  <programme start="20250523032100 +0800" stop="20250523034200 +0800" channel="38">
     <title lang="zh">欢乐点点</title>
   </programme>
   <programme start="20250523054100 +0800" stop="20250523063000 +0800" channel="38">
@@ -3519,10 +3594,10 @@
   <programme start="20250523000000 +0800" stop="20250523002700 +0800" channel="41">
     <title lang="zh">猎魔</title>
   </programme>
-  <programme start="20250523002700 +0800" stop="20250523012000 +0800" channel="41">
+  <programme start="20250523002700 +0800" stop="20250523011900 +0800" channel="41">
     <title lang="zh">猎魔</title>
   </programme>
-  <programme start="20250523012000 +0800" stop="20250523021000 +0800" channel="41">
+  <programme start="20250523011900 +0800" stop="20250523021000 +0800" channel="41">
     <title lang="zh">猎魔</title>
   </programme>
   <programme start="20250523021000 +0800" stop="20250523025700 +0800" channel="41">
@@ -6792,13 +6867,13 @@
   <programme start="20250523024000 +0800" stop="20250523030000 +0800" channel="71">
     <title lang="zh">同上一堂课</title>
   </programme>
-  <programme start="20250523030000 +0800" stop="20250523033600 +0800" channel="71">
+  <programme start="20250523030000 +0800" stop="20250523034100 +0800" channel="71">
     <title lang="zh">同上一堂课</title>
   </programme>
-  <programme start="20250523033600 +0800" stop="20250523041000 +0800" channel="71">
+  <programme start="20250523034100 +0800" stop="20250523041500 +0800" channel="71">
     <title lang="zh">发现·中国</title>
   </programme>
-  <programme start="20250523041000 +0800" stop="20250523044500 +0800" channel="71">
+  <programme start="20250523041500 +0800" stop="20250523044500 +0800" channel="71">
     <title lang="zh">纪录片</title>
   </programme>
   <programme start="20250523044500 +0800" stop="20250523053000 +0800" channel="71">
