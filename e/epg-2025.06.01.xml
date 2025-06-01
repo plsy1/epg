@@ -1221,8 +1221,11 @@
   <programme start="20250601055500 +0800" stop="20250601060000 +0800" channel="17">
     <title lang="zh">中华人民共和国国歌</title>
   </programme>
-  <programme start="20250601060000 +0800" stop="20250601080000 +0800" channel="17">
+  <programme start="20250601060000 +0800" stop="20250601071200 +0800" channel="17">
     <title lang="zh">下姜村的共同富裕梦</title>
+  </programme>
+  <programme start="20250601071200 +0800" stop="20250601080000 +0800" channel="17">
+    <title lang="zh">下姜村的数字未来梦</title>
   </programme>
   <programme start="20250601080000 +0800" stop="20250601081000 +0800" channel="17">
     <title lang="zh">六一串联-童声中国梦少年最强音</title>
@@ -2529,19 +2532,19 @@
   <programme start="20250601000700 +0800" stop="20250601020000 +0800" channel="31">
     <title lang="zh">是女儿是妈妈Ⅱ(4)</title>
   </programme>
-  <programme start="20250601020000 +0800" stop="20250601023000 +0800" channel="31">
+  <programme start="20250601021100 +0800" stop="20250601024000 +0800" channel="31">
     <title lang="zh">跟着环塔看新疆</title>
   </programme>
-  <programme start="20250601023000 +0800" stop="20250601040000 +0800" channel="31">
+  <programme start="20250601024000 +0800" stop="20250601031000 +0800" channel="31">
     <title lang="zh">新闻大求真</title>
+  </programme>
+  <programme start="20250601031000 +0800" stop="20250601040000 +0800" channel="31">
+    <title lang="zh">跟着环塔看新疆</title>
   </programme>
   <programme start="20250601040000 +0800" stop="20250601060000 +0800" channel="31">
     <title lang="zh">纪录片</title>
   </programme>
-  <programme start="20250601060000 +0800" stop="20250601063000 +0800" channel="31">
-    <title lang="zh">跟着环塔看新疆</title>
-  </programme>
-  <programme start="20250601063000 +0800" stop="20250601070000 +0800" channel="31">
+  <programme start="20250601062800 +0800" stop="20250601070000 +0800" channel="31">
     <title lang="zh">纪录片</title>
   </programme>
   <programme start="20250601070000 +0800" stop="20250601070100 +0800" channel="31">
@@ -2973,29 +2976,26 @@
   <programme start="20250601014300 +0800" stop="20250601014400 +0800" channel="35">
     <title lang="zh">广宣时段</title>
   </programme>
-  <programme start="20250601014400 +0800" stop="20250601022100 +0800" channel="35">
+  <programme start="20250601015900 +0800" stop="20250601020100 +0800" channel="35">
+    <title lang="zh">晚间气象服务</title>
+  </programme>
+  <programme start="20250601020100 +0800" stop="20250601020200 +0800" channel="35">
+    <title lang="zh">广宣时段</title>
+  </programme>
+  <programme start="20250601020200 +0800" stop="20250601023900 +0800" channel="35">
     <title lang="zh">身边</title>
   </programme>
-  <programme start="20250601022100 +0800" stop="20250601030500 +0800" channel="35">
+  <programme start="20250601023900 +0800" stop="20250601032300 +0800" channel="35">
     <title lang="zh">档案纯享版(153)</title>
   </programme>
-  <programme start="20250601030500 +0800" stop="20250601034800 +0800" channel="35">
-    <title lang="zh">档案纯享版(151)</title>
-  </programme>
-  <programme start="20250601034800 +0800" stop="20250601035300 +0800" channel="35">
-    <title lang="zh">2025最美北京我的家：古都、新城</title>
-  </programme>
-  <programme start="20250601035300 +0800" stop="20250601043600 +0800" channel="35">
+  <programme start="20250601032300 +0800" stop="20250601043600 +0800" channel="35">
     <title lang="zh">勇者无惧(33)</title>
   </programme>
   <programme start="20250601043600 +0800" stop="20250601044100 +0800" channel="35">
     <title lang="zh">2025最美北京我的家：古都、新城</title>
   </programme>
-  <programme start="20250601044100 +0800" stop="20250601052500 +0800" channel="35">
-    <title lang="zh">勇者无惧(34)</title>
-  </programme>
-  <programme start="20250601052500 +0800" stop="20250601053000 +0800" channel="35">
-    <title lang="zh">2025最美北京我的家：古都、新城</title>
+  <programme start="20250601045000 +0800" stop="20250601053000 +0800" channel="35">
+    <title lang="zh">法治进行时</title>
   </programme>
   <programme start="20250601053000 +0800" stop="20250601053300 +0800" channel="35">
     <title lang="zh">广宣时段</title>
@@ -3253,6 +3253,9 @@
     <display-name lang="zh">辽宁卫视高清</display-name>
   </channel>
   <programme start="20250601023600 +0800" stop="20250601025700 +0800" channel="38">
+    <title lang="zh">欢乐点点</title>
+  </programme>
+  <programme start="20250601031700 +0800" stop="20250601033800 +0800" channel="38">
     <title lang="zh">欢乐点点</title>
   </programme>
   <programme start="20250601054100 +0800" stop="20250601063000 +0800" channel="38">
