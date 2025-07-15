@@ -1191,14 +1191,8 @@
   <programme start="20250715043300 +0800" stop="20250715050000 +0800" channel="16">
     <title lang="zh">新闻1+1</title>
   </programme>
-  <programme start="20250715050000 +0800" stop="20250715051800 +0800" channel="16">
-    <title lang="zh">新闻直播间</title>
-  </programme>
-  <programme start="20250715051800 +0800" stop="20250715053400 +0800" channel="16">
-    <title lang="zh">焦点访谈</title>
-  </programme>
-  <programme start="20250715053400 +0800" stop="20250715055900 +0800" channel="16">
-    <title lang="zh">法治在线</title>
+  <programme start="20250715050000 +0800" stop="20250715055900 +0800" channel="16">
+    <title lang="zh">中国空间站天舟九号发射任务</title>
   </programme>
   <programme start="20250715055900 +0800" stop="20250715060000 +0800" channel="16">
     <title lang="zh">中华人民共和国国歌</title>
@@ -2595,16 +2589,16 @@
   <programme start="20250715002700 +0800" stop="20250715005600 +0800" channel="31">
     <title lang="zh">平民英雄</title>
   </programme>
-  <programme start="20250715005600 +0800" stop="20250715040000 +0800" channel="31">
-    <title lang="zh">新闻大求真</title>
-  </programme>
-  <programme start="20250715040000 +0800" stop="20250715060000 +0800" channel="31">
+  <programme start="20250715035100 +0800" stop="20250715044100 +0800" channel="31">
     <title lang="zh">纪录片</title>
   </programme>
-  <programme start="20250715060000 +0800" stop="20250715063000 +0800" channel="31">
+  <programme start="20250715044100 +0800" stop="20250715053900 +0800" channel="31">
+    <title lang="zh">首发</title>
+  </programme>
+  <programme start="20250715053900 +0800" stop="20250715060800 +0800" channel="31">
     <title lang="zh">平民英雄</title>
   </programme>
-  <programme start="20250715063000 +0800" stop="20250715070000 +0800" channel="31">
+  <programme start="20250715060800 +0800" stop="20250715070000 +0800" channel="31">
     <title lang="zh">纪录片</title>
   </programme>
   <programme start="20250715070000 +0800" stop="20250715070100 +0800" channel="31">
@@ -2946,10 +2940,10 @@
   <programme start="20250715033000 +0800" stop="20250715042300 +0800" channel="34">
     <title lang="zh">我在岛屿读书Ⅱ</title>
   </programme>
-  <programme start="20250715042300 +0800" stop="20250715045200 +0800" channel="34">
+  <programme start="20250715042400 +0800" stop="20250715045300 +0800" channel="34">
     <title lang="zh">紫金文化名家</title>
   </programme>
-  <programme start="20250715045200 +0800" stop="20250715052600 +0800" channel="34">
+  <programme start="20250715045300 +0800" stop="20250715052600 +0800" channel="34">
     <title lang="zh">小镇故事</title>
   </programme>
   <programme start="20250715052600 +0800" stop="20250715060200 +0800" channel="34">
@@ -2959,7 +2953,7 @@
     <title lang="zh">约见名医</title>
   </programme>
   <programme start="20250715062800 +0800" stop="20250715070000 +0800" channel="34">
-    <title lang="zh">百年巨匠：吴作人</title>
+    <title lang="zh">百年巨匠Ⅱ：吴作人</title>
   </programme>
   <programme start="20250715070000 +0800" stop="20250715070100 +0800" channel="34">
     <title lang="zh">中华人民共和国国歌</title>
@@ -3309,6 +3303,9 @@
   <channel id="38">
     <display-name lang="zh">辽宁卫视高清</display-name>
   </channel>
+  <programme start="20250715031200 +0800" stop="20250715033800 +0800" channel="38">
+    <title lang="zh">欢乐点点</title>
+  </programme>
   <programme start="20250715054100 +0800" stop="20250715063000 +0800" channel="38">
     <title lang="zh">黑土地</title>
   </programme>
@@ -3648,10 +3645,10 @@
   <programme start="20250715002700 +0800" stop="20250715012000 +0800" channel="41">
     <title lang="zh">雪豹</title>
   </programme>
-  <programme start="20250715012000 +0800" stop="20250715021400 +0800" channel="41">
+  <programme start="20250715012000 +0800" stop="20250715021500 +0800" channel="41">
     <title lang="zh">雪豹</title>
   </programme>
-  <programme start="20250715021400 +0800" stop="20250715030700 +0800" channel="41">
+  <programme start="20250715021500 +0800" stop="20250715030700 +0800" channel="41">
     <title lang="zh">雪豹</title>
   </programme>
   <programme start="20250715030700 +0800" stop="20250715034200 +0800" channel="41">
@@ -4100,6 +4097,60 @@
   </programme>
   <programme start="20250715212000 +0800" stop="20250715235959 +0800" channel="44">
     <title lang="zh">我粉你</title>
+  </programme>
+  <channel id="45">
+    <display-name lang="zh">河北卫视高清</display-name>
+  </channel>
+  <programme start="20250715000000 +0800" stop="20250715000100 +0800" channel="45">
+    <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250715031300 +0800" stop="20250715063000 +0800" channel="45">
+    <title lang="zh">外交风云</title>
+  </programme>
+  <programme start="20250715063000 +0800" stop="20250715070000 +0800" channel="45">
+    <title lang="zh">冀时全播报</title>
+  </programme>
+  <programme start="20250715070000 +0800" stop="20250715070100 +0800" channel="45">
+    <title lang="zh">中华人民共和国国歌</title>
+  </programme>
+  <programme start="20250715070100 +0800" stop="20250715073000 +0800" channel="45">
+    <title lang="zh">冀时全播报</title>
+  </programme>
+  <programme start="20250715073000 +0800" stop="20250715081000 +0800" channel="45">
+    <title lang="zh">美丽河北慢直播</title>
+  </programme>
+  <programme start="20250715081000 +0800" stop="20250715082500 +0800" channel="45">
+    <title lang="zh">动画片</title>
+  </programme>
+  <programme start="20250715082500 +0800" stop="20250715175500 +0800" channel="45">
+    <title lang="zh">侦察英雄</title>
+  </programme>
+  <programme start="20250715175500 +0800" stop="20250715183000 +0800" channel="45">
+    <title lang="zh">家政女皇</title>
+  </programme>
+  <programme start="20250715183000 +0800" stop="20250715185500 +0800" channel="45">
+    <title lang="zh">河北新闻联播</title>
+  </programme>
+  <programme start="20250715185500 +0800" stop="20250715190000 +0800" channel="45">
+    <title lang="zh">天气预报</title>
+  </programme>
+  <programme start="20250715190000 +0800" stop="20250715193500 +0800" channel="45">
+    <title lang="zh">转播中央台新闻联播</title>
+  </programme>
+  <programme start="20250715193500 +0800" stop="20250715202700 +0800" channel="45">
+    <title lang="zh">我是刑警(37)</title>
+  </programme>
+  <programme start="20250715202700 +0800" stop="20250715212000 +0800" channel="45">
+    <title lang="zh">我是刑警(38)</title>
+  </programme>
+  <programme start="20250715212000 +0800" stop="20250715220000 +0800" channel="45">
+    <title lang="zh">好好学习知行季</title>
+  </programme>
+  <programme start="20250715230000 +0800" stop="20250715233500 +0800" channel="45">
+    <title lang="zh">你好京津冀</title>
+  </programme>
+  <programme start="20250715233500 +0800" stop="20250715235959 +0800" channel="45">
+    <title lang="zh">大秧歌</title>
   </programme>
   <channel id="46">
     <display-name lang="zh">重庆卫视高清</display-name>
