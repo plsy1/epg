@@ -1149,10 +1149,7 @@
   <programme start="20250825001500 +0800" stop="20250825010000 +0800" channel="16">
     <title lang="zh">面对面</title>
   </programme>
-  <programme start="20250825010000 +0800" stop="20250825011500 +0800" channel="16">
-    <title lang="zh">新闻直播间</title>
-  </programme>
-  <programme start="20250825011500 +0800" stop="20250825020000 +0800" channel="16">
+  <programme start="20250825010000 +0800" stop="20250825020000 +0800" channel="16">
     <title lang="zh">世界周刊</title>
   </programme>
   <programme start="20250825020000 +0800" stop="20250825021500 +0800" channel="16">
@@ -1170,10 +1167,7 @@
   <programme start="20250825034000 +0800" stop="20250825040000 +0800" channel="16">
     <title lang="zh">每周质量报告</title>
   </programme>
-  <programme start="20250825040000 +0800" stop="20250825041500 +0800" channel="16">
-    <title lang="zh">新闻直播间</title>
-  </programme>
-  <programme start="20250825041500 +0800" stop="20250825050000 +0800" channel="16">
+  <programme start="20250825040000 +0800" stop="20250825050000 +0800" channel="16">
     <title lang="zh">世界周刊</title>
   </programme>
   <programme start="20250825050000 +0800" stop="20250825051200 +0800" channel="16">
@@ -2661,8 +2655,11 @@
   <programme start="20250825014700 +0800" stop="20250825021000 +0800" channel="31">
     <title lang="zh">新闻大求真</title>
   </programme>
-  <programme start="20250825021000 +0800" stop="20250825040000 +0800" channel="31">
+  <programme start="20250825021000 +0800" stop="20250825023500 +0800" channel="31">
     <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250825023500 +0800" stop="20250825040000 +0800" channel="31">
+    <title lang="zh">新闻大求真</title>
   </programme>
   <programme start="20250825040000 +0800" stop="20250825060000 +0800" channel="31">
     <title lang="zh">纪录片</title>
@@ -3399,7 +3396,7 @@
   <programme start="20250825003400 +0800" stop="20250825013000 +0800" channel="38">
     <title lang="zh">欢乐点点</title>
   </programme>
-  <programme start="20250825033700 +0800" stop="20250825041800 +0800" channel="38">
+  <programme start="20250825031700 +0800" stop="20250825033700 +0800" channel="38">
     <title lang="zh">欢乐点点</title>
   </programme>
   <programme start="20250825054100 +0800" stop="20250825063000 +0800" channel="38">
@@ -4251,7 +4248,7 @@
   <programme start="20250825000600 +0800" stop="20250825033000 +0800" channel="45">
     <title lang="zh">追风者</title>
   </programme>
-  <programme start="20250825033000 +0800" stop="20250825063000 +0800" channel="45">
+  <programme start="20250825033500 +0800" stop="20250825063000 +0800" channel="45">
     <title lang="zh">警察荣誉</title>
   </programme>
   <programme start="20250825063000 +0800" stop="20250825070000 +0800" channel="45">
