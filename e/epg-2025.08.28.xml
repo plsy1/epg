@@ -2763,8 +2763,11 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250827233800 +0800" stop="20250828003400 +0800" channel="35">
-    <title lang="zh">奏响基层治理协奏曲（8）</title>
+  <programme start="20250828000000 +0800" stop="20250828001100 +0800" channel="35">
+    <title lang="zh">奏响基层治理协奏曲(8)</title>
+  </programme>
+  <programme start="20250828001100 +0800" stop="20250828005200 +0800" channel="35">
+    <title lang="zh">剧场</title>
   </programme>
   <programme start="20250828005200 +0800" stop="20250828005500 +0800" channel="35">
     <title lang="zh">晚间气象服务</title>
@@ -12852,8 +12855,8 @@
   <channel id="192">
     <display-name lang="zh">广东卫视4K超高清</display-name>
   </channel>
-  <programme start="20250827231600 +0800" stop="20250828001200 +0800" channel="192">
-    <title lang="zh">养猫的人（5）</title>
+  <programme start="20250828000000 +0800" stop="20250828002300 +0800" channel="192">
+    <title lang="zh">养猫的人(5)</title>
   </programme>
   <programme start="20250828002300 +0800" stop="20250828005300 +0800" channel="192">
     <title lang="zh">纪录片</title>
