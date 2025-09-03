@@ -6,20 +6,20 @@
   <programme start="20250905000000 +0800" stop="20250905004700 +0800" channel="1">
     <title lang="zh">简牍探中华Ⅱ(4)</title>
   </programme>
-  <programme start="20250905004700 +0800" stop="20250905012900 +0800" channel="1">
-    <title lang="zh">生活圈</title>
-  </programme>
-  <programme start="20250905012900 +0800" stop="20250905020100 +0800" channel="1">
+  <programme start="20250905004700 +0800" stop="20250905011900 +0800" channel="1">
     <title lang="zh">农耕探文明(19)</title>
   </programme>
-  <programme start="20250905020100 +0800" stop="20250905023100 +0800" channel="1">
+  <programme start="20250905011900 +0800" stop="20250905015100 +0800" channel="1">
     <title lang="zh">晚间新闻</title>
   </programme>
-  <programme start="20250905023100 +0800" stop="20250905023600 +0800" channel="1">
-    <title lang="zh">字从遇见你：亭</title>
+  <programme start="20250905015100 +0800" stop="20250905022300 +0800" channel="1">
+    <title lang="zh">国家荣光(3)</title>
   </programme>
-  <programme start="20250905023600 +0800" stop="20250905024700 +0800" channel="1">
+  <programme start="20250905022300 +0800" stop="20250905023500 +0800" channel="1">
     <title lang="zh">秘境之眼：雪域灵踪</title>
+  </programme>
+  <programme start="20250905023500 +0800" stop="20250905024700 +0800" channel="1">
+    <title lang="zh">非遗里的中国Ⅱ精编(3)</title>
   </programme>
   <programme start="20250905024700 +0800" stop="20250905042000 +0800" channel="1">
     <title lang="zh">简牍探中华Ⅱ(4)</title>
@@ -2805,8 +2805,14 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250904225300 +0800" stop="20250905003700 +0800" channel="35">
+  <programme start="20250905000000 +0800" stop="20250905002300 +0800" channel="35">
     <title lang="zh">长歌胜利日，阔步新征程</title>
+  </programme>
+  <programme start="20250905002300 +0800" stop="20250905002600 +0800" channel="35">
+    <title lang="zh">晚间气象服务</title>
+  </programme>
+  <programme start="20250905002600 +0800" stop="20250905014800 +0800" channel="35">
+    <title lang="zh">档案</title>
   </programme>
   <programme start="20250905014800 +0800" stop="20250905023100 +0800" channel="35">
     <title lang="zh">剧场</title>
@@ -7278,14 +7284,17 @@
   <programme start="20250905144400 +0800" stop="20250905153000 +0800" channel="88">
     <title lang="zh">珠江人家(21)</title>
   </programme>
-  <programme start="20250905153000 +0800" stop="20250905161800 +0800" channel="88">
+  <programme start="20250905153000 +0800" stop="20250905162000 +0800" channel="88">
     <title lang="zh">远方的家</title>
   </programme>
-  <programme start="20250905161800 +0800" stop="20250905170400 +0800" channel="88">
-    <title lang="zh">今生有你(12)</title>
+  <programme start="20250905162000 +0800" stop="20250905165000 +0800" channel="88">
+    <title lang="zh">国家记忆</title>
   </programme>
-  <programme start="20250905170400 +0800" stop="20250905175000 +0800" channel="88">
-    <title lang="zh">今生有你(13)</title>
+  <programme start="20250905165000 +0800" stop="20250905172000 +0800" channel="88">
+    <title lang="zh">国家记忆</title>
+  </programme>
+  <programme start="20250905172000 +0800" stop="20250905175000 +0800" channel="88">
+    <title lang="zh">国家记忆</title>
   </programme>
   <programme start="20250905175000 +0800" stop="20250905180000 +0800" channel="88">
     <title lang="zh">远方的家：传世古建(6)</title>
