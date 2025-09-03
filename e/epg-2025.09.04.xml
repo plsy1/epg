@@ -1,122 +1,5 @@
 <?xml version="1.0" ?>
 <tv generator_info_name="https://github.com/plsy1/iptv">
-  <channel id="1">
-    <display-name lang="zh">CCTV1高清</display-name>
-  </channel>
-  <programme start="20250904000000 +0800" stop="20250904012800 +0800" channel="1">
-    <title lang="zh">简牍探中华Ⅱ(3)</title>
-  </programme>
-  <programme start="20250904012800 +0800" stop="20250904015800 +0800" channel="1">
-    <title lang="zh">本草流芳：益母草</title>
-  </programme>
-  <programme start="20250904015800 +0800" stop="20250904022800 +0800" channel="1">
-    <title lang="zh">晚间新闻</title>
-  </programme>
-  <programme start="20250904022800 +0800" stop="20250904024300 +0800" channel="1">
-    <title lang="zh">秘境之眼：流石滩传奇</title>
-  </programme>
-  <programme start="20250904024300 +0800" stop="20250904024800 +0800" channel="1">
-    <title lang="zh">字从遇见你：美</title>
-  </programme>
-  <programme start="20250904024800 +0800" stop="20250904025300 +0800" channel="1">
-    <title lang="zh">非遗里的中国Ⅱ：戏满高台</title>
-  </programme>
-  <programme start="20250904025300 +0800" stop="20250904042000 +0800" channel="1">
-    <title lang="zh">简牍探中华Ⅱ(3)</title>
-  </programme>
-  <programme start="20250904042000 +0800" stop="20250904045300 +0800" channel="1">
-    <title lang="zh">文脉春秋(24)</title>
-  </programme>
-  <programme start="20250904045300 +0800" stop="20250904052700 +0800" channel="1">
-    <title lang="zh">新闻联播</title>
-  </programme>
-  <programme start="20250904052700 +0800" stop="20250904055900 +0800" channel="1">
-    <title lang="zh">寻古中国：稻谷记(2)</title>
-  </programme>
-  <programme start="20250904055900 +0800" stop="20250904060000 +0800" channel="1">
-    <title lang="zh">中华人民共和国国歌</title>
-  </programme>
-  <programme start="20250904060000 +0800" stop="20250904070000 +0800" channel="1">
-    <title lang="zh">朝闻天下</title>
-  </programme>
-  <programme start="20250904070000 +0800" stop="20250904070100 +0800" channel="1">
-    <title lang="zh">中华人民共和国国歌</title>
-  </programme>
-  <programme start="20250904070100 +0800" stop="20250904083800 +0800" channel="1">
-    <title lang="zh">朝闻天下</title>
-  </programme>
-  <programme start="20250904083800 +0800" stop="20250904092200 +0800" channel="1">
-    <title lang="zh">生活圈</title>
-  </programme>
-  <programme start="20250904092200 +0800" stop="20250904101300 +0800" channel="1">
-    <title lang="zh">承欢记(37)</title>
-  </programme>
-  <programme start="20250904101300 +0800" stop="20250904110400 +0800" channel="1">
-    <title lang="zh">青山是故乡(1)</title>
-  </programme>
-  <programme start="20250904110400 +0800" stop="20250904115400 +0800" channel="1">
-    <title lang="zh">青山是故乡(2)</title>
-  </programme>
-  <programme start="20250904115400 +0800" stop="20250904120000 +0800" channel="1">
-    <title lang="zh">秘境之眼(340)</title>
-  </programme>
-  <programme start="20250904120000 +0800" stop="20250904123500 +0800" channel="1">
-    <title lang="zh">新闻30分</title>
-  </programme>
-  <programme start="20250904123500 +0800" stop="20250904131000 +0800" channel="1">
-    <title lang="zh">今日说法</title>
-  </programme>
-  <programme start="20250904131000 +0800" stop="20250904135700 +0800" channel="1">
-    <title lang="zh">归队(6)</title>
-  </programme>
-  <programme start="20250904135700 +0800" stop="20250904144900 +0800" channel="1">
-    <title lang="zh">归队(7)</title>
-  </programme>
-  <programme start="20250904144900 +0800" stop="20250904153800 +0800" channel="1">
-    <title lang="zh">归队(8)</title>
-  </programme>
-  <programme start="20250904153800 +0800" stop="20250904162700 +0800" channel="1">
-    <title lang="zh">归队(9)</title>
-  </programme>
-  <programme start="20250904162700 +0800" stop="20250904171900 +0800" channel="1">
-    <title lang="zh">归队(10)</title>
-  </programme>
-  <programme start="20250904171900 +0800" stop="20250904184900 +0800" channel="1">
-    <title lang="zh">城市风华录(9)</title>
-  </programme>
-  <programme start="20250904184900 +0800" stop="20250904190000 +0800" channel="1">
-    <title lang="zh">秘境之眼</title>
-  </programme>
-  <programme start="20250904190000 +0800" stop="20250904193200 +0800" channel="1">
-    <title lang="zh">新闻联播</title>
-  </programme>
-  <programme start="20250904193200 +0800" stop="20250904194000 +0800" channel="1">
-    <title lang="zh">天气预报</title>
-  </programme>
-  <programme start="20250904194000 +0800" stop="20250904200100 +0800" channel="1">
-    <title lang="zh">焦点访谈</title>
-  </programme>
-  <programme start="20250904200100 +0800" stop="20250904200600 +0800" channel="1">
-    <title lang="zh">前情提要：我们的河山(21)</title>
-  </programme>
-  <programme start="20250904200600 +0800" stop="20250904205600 +0800" channel="1">
-    <title lang="zh">我们的河山(21)</title>
-  </programme>
-  <programme start="20250904205600 +0800" stop="20250904210000 +0800" channel="1">
-    <title lang="zh">前情提要：我们的河山(22)</title>
-  </programme>
-  <programme start="20250904210000 +0800" stop="20250904220000 +0800" channel="1">
-    <title lang="zh">我们的河山(22)</title>
-  </programme>
-  <programme start="20250904220000 +0800" stop="20250904223400 +0800" channel="1">
-    <title lang="zh">晚间新闻</title>
-  </programme>
-  <programme start="20250904223400 +0800" stop="20250904230800 +0800" channel="1">
-    <title lang="zh">国家荣光(3)</title>
-  </programme>
-  <programme start="20250904230800 +0800" stop="20250904235959 +0800" channel="1">
-    <title lang="zh">简牍探中华Ⅱ(4)</title>
-  </programme>
   <channel id="2">
     <display-name lang="zh">山东卫视高清</display-name>
   </channel>
@@ -224,6 +107,171 @@
   </programme>
   <programme start="20250904233800 +0800" stop="20250905002300 +0800" channel="2">
     <title lang="zh">剧场</title>
+  </programme>
+  <channel id="709">
+    <display-name lang="zh">泰安综合</display-name>
+  </channel>
+  <programme start="20250903234000 +0800" stop="20250904002000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904002000 +0800" stop="20250904003500 +0800" channel="709">
+    <title lang="zh">健康新生活/名医聊健康</title>
+  </programme>
+  <programme start="20250904003500 +0800" stop="20250904005000 +0800" channel="709">
+    <title lang="zh">天天汽车报道</title>
+  </programme>
+  <programme start="20250904005000 +0800" stop="20250904011000 +0800" channel="709">
+    <title lang="zh">泰安房产报道</title>
+  </programme>
+  <programme start="20250904011000 +0800" stop="20250904012000 +0800" channel="709">
+    <title lang="zh">泰安新财经</title>
+  </programme>
+  <programme start="20250904012000 +0800" stop="20250904013000 +0800" channel="709">
+    <title lang="zh">直通县市区</title>
+  </programme>
+  <programme start="20250904013000 +0800" stop="20250904014000 +0800" channel="709">
+    <title lang="zh">今日高新区</title>
+  </programme>
+  <programme start="20250904014000 +0800" stop="20250904015000 +0800" channel="709">
+    <title lang="zh">文旅泰安/直播泰山</title>
+  </programme>
+  <programme start="20250904015000 +0800" stop="20250904053000 +0800" channel="709">
+    <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250904053000 +0800" stop="20250904060000 +0800" channel="709">
+    <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250904060000 +0800" stop="20250904061000 +0800" channel="709">
+    <title lang="zh">文旅泰安/直播泰山</title>
+  </programme>
+  <programme start="20250904061000 +0800" stop="20250904062500 +0800" channel="709">
+    <title lang="zh">天天汽车报道</title>
+  </programme>
+  <programme start="20250904062500 +0800" stop="20250904064000 +0800" channel="709">
+    <title lang="zh">泰安房产报道</title>
+  </programme>
+  <programme start="20250904064000 +0800" stop="20250904070000 +0800" channel="709">
+    <title lang="zh">纪录片</title>
+  </programme>
+  <programme start="20250904070000 +0800" stop="20250904072000 +0800" channel="709">
+    <title lang="zh">泰安新闻</title>
+  </programme>
+  <programme start="20250904072000 +0800" stop="20250904073500 +0800" channel="709">
+    <title lang="zh">直通县市区</title>
+  </programme>
+  <programme start="20250904073500 +0800" stop="20250904075000 +0800" channel="709">
+    <title lang="zh">今日高新区</title>
+  </programme>
+  <programme start="20250904075000 +0800" stop="20250904082000 +0800" channel="709">
+    <title lang="zh">健康新生活/名医聊健康</title>
+  </programme>
+  <programme start="20250904082000 +0800" stop="20250904091500 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904091500 +0800" stop="20250904101000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904101000 +0800" stop="20250904110000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904110000 +0800" stop="20250904111500 +0800" channel="709">
+    <title lang="zh">泰安新财经</title>
+  </programme>
+  <programme start="20250904111500 +0800" stop="20250904112500 +0800" channel="709">
+    <title lang="zh">文旅泰安/直播泰山</title>
+  </programme>
+  <programme start="20250904112500 +0800" stop="20250904114500 +0800" channel="709">
+    <title lang="zh">天天汽车报道</title>
+  </programme>
+  <programme start="20250904114500 +0800" stop="20250904120000 +0800" channel="709">
+    <title lang="zh">教育新闻</title>
+  </programme>
+  <programme start="20250904120000 +0800" stop="20250904121800 +0800" channel="709">
+    <title lang="zh">泰安新闻</title>
+  </programme>
+  <programme start="20250904121800 +0800" stop="20250904122800 +0800" channel="709">
+    <title lang="zh">直通县市区</title>
+  </programme>
+  <programme start="20250904122800 +0800" stop="20250904123800 +0800" channel="709">
+    <title lang="zh">今日高新区</title>
+  </programme>
+  <programme start="20250904123800 +0800" stop="20250904125000 +0800" channel="709">
+    <title lang="zh">泰安新财经</title>
+  </programme>
+  <programme start="20250904125000 +0800" stop="20250904132000 +0800" channel="709">
+    <title lang="zh">零距离说事</title>
+  </programme>
+  <programme start="20250904132000 +0800" stop="20250904134500 +0800" channel="709">
+    <title lang="zh">健康新生活/名医聊健康</title>
+  </programme>
+  <programme start="20250904134500 +0800" stop="20250904141000 +0800" channel="709">
+    <title lang="zh">泰安房产报道</title>
+  </programme>
+  <programme start="20250904141000 +0800" stop="20250904150000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904150000 +0800" stop="20250904155000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904155000 +0800" stop="20250904163500 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904163500 +0800" stop="20250904172000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904172000 +0800" stop="20250904173500 +0800" channel="709">
+    <title lang="zh">文旅泰安/直播泰山</title>
+  </programme>
+  <programme start="20250904173500 +0800" stop="20250904175000 +0800" channel="709">
+    <title lang="zh">泰安房产报道</title>
+  </programme>
+  <programme start="20250904175000 +0800" stop="20250904181000 +0800" channel="709">
+    <title lang="zh">天天汽车报道</title>
+  </programme>
+  <programme start="20250904181000 +0800" stop="20250904183000 +0800" channel="709">
+    <title lang="zh">泰安党建</title>
+  </programme>
+  <programme start="20250904183000 +0800" stop="20250904190000 +0800" channel="709">
+    <title lang="zh">转播《山东新闻联播》</title>
+  </programme>
+  <programme start="20250904190000 +0800" stop="20250904193500 +0800" channel="709">
+    <title lang="zh">转播中央《新闻联播》</title>
+  </programme>
+  <programme start="20250904193500 +0800" stop="20250904195500 +0800" channel="709">
+    <title lang="zh">泰安新闻</title>
+  </programme>
+  <programme start="20250904195500 +0800" stop="20250904200000 +0800" channel="709">
+    <title lang="zh">天气预报</title>
+  </programme>
+  <programme start="20250904200000 +0800" stop="20250904201000 +0800" channel="709">
+    <title lang="zh">泰安新财经</title>
+  </programme>
+  <programme start="20250904201000 +0800" stop="20250904202000 +0800" channel="709">
+    <title lang="zh">今日高新区</title>
+  </programme>
+  <programme start="20250904202000 +0800" stop="20250904203000 +0800" channel="709">
+    <title lang="zh">直通县市区</title>
+  </programme>
+  <programme start="20250904203000 +0800" stop="20250904204500 +0800" channel="709">
+    <title lang="zh">文旅泰安/直播泰山</title>
+  </programme>
+  <programme start="20250904204500 +0800" stop="20250904210000 +0800" channel="709">
+    <title lang="zh">健康新生活/名医聊健康</title>
+  </programme>
+  <programme start="20250904210000 +0800" stop="20250904214500 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904214500 +0800" stop="20250904223000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904223000 +0800" stop="20250904225000 +0800" channel="709">
+    <title lang="zh">泰安新闻</title>
+  </programme>
+  <programme start="20250904225000 +0800" stop="20250904233500 +0800" channel="709">
+    <title lang="zh">电视剧</title>
+  </programme>
+  <programme start="20250904233500 +0800" stop="20250905002000 +0800" channel="709">
+    <title lang="zh">电视剧</title>
   </programme>
   <channel id="4">
     <display-name lang="zh">CCTV2高清</display-name>
@@ -8064,6 +8112,12 @@
   <programme start="20250904235900 +0800" stop="20250904235959 +0800" channel="159">
     <title lang="zh">节目结束</title>
   </programme>
+  <channel id="189">
+    <display-name lang="zh">北京纪实科教</display-name>
+  </channel>
+  <programme start="20250903235500 +0800" stop="20250904003800 +0800" channel="189">
+    <title lang="zh">卢沟桥 我们的纪念 第一集</title>
+  </programme>
   <channel id="190">
     <display-name lang="zh">北京卫视4K超高清</display-name>
   </channel>
@@ -8164,129 +8218,6 @@
     <title lang="zh">剧场</title>
   </programme>
   <programme start="20250904233100 +0800" stop="20250904235959 +0800" channel="190">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <channel id="192">
-    <display-name lang="zh">广东卫视4K超高清</display-name>
-  </channel>
-  <programme start="20250904000000 +0800" stop="20250904004300 +0800" channel="192">
-    <title lang="zh">遇见最极致的中国(1)</title>
-  </programme>
-  <programme start="20250904004300 +0800" stop="20250904012800 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904012800 +0800" stop="20250904021300 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904021300 +0800" stop="20250904025000 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904025000 +0800" stop="20250904033500 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904033500 +0800" stop="20250904041900 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904041900 +0800" stop="20250904050300 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904050300 +0800" stop="20250904054600 +0800" channel="192">
-    <title lang="zh">剧场</title>
-  </programme>
-  <programme start="20250904054600 +0800" stop="20250904063000 +0800" channel="192">
-    <title lang="zh">剧场</title>
-  </programme>
-  <programme start="20250904063000 +0800" stop="20250904065700 +0800" channel="192">
-    <title lang="zh">广东新闻联播</title>
-  </programme>
-  <programme start="20250904065700 +0800" stop="20250904070000 +0800" channel="192">
-    <title lang="zh">天气预报</title>
-  </programme>
-  <programme start="20250904070000 +0800" stop="20250904070100 +0800" channel="192">
-    <title lang="zh">中华人民共和国国歌</title>
-  </programme>
-  <programme start="20250904070100 +0800" stop="20250904073200 +0800" channel="192">
-    <title lang="zh">大美南粤</title>
-  </programme>
-  <programme start="20250904073200 +0800" stop="20250904075500 +0800" channel="192">
-    <title lang="zh">动画片</title>
-  </programme>
-  <programme start="20250904075500 +0800" stop="20250904085700 +0800" channel="192">
-    <title lang="zh">上午剧场</title>
-  </programme>
-  <programme start="20250904085700 +0800" stop="20250904093800 +0800" channel="192">
-    <title lang="zh">上午剧场</title>
-  </programme>
-  <programme start="20250904093800 +0800" stop="20250904103000 +0800" channel="192">
-    <title lang="zh">上午剧场</title>
-  </programme>
-  <programme start="20250904103000 +0800" stop="20250904112200 +0800" channel="192">
-    <title lang="zh">上午剧场</title>
-  </programme>
-  <programme start="20250904112200 +0800" stop="20250904121500 +0800" channel="192">
-    <title lang="zh">上午剧场</title>
-  </programme>
-  <programme start="20250904121500 +0800" stop="20250904124900 +0800" channel="192">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904124900 +0800" stop="20250904133900 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904133900 +0800" stop="20250904141900 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904141900 +0800" stop="20250904150200 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904150200 +0800" stop="20250904155200 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904155200 +0800" stop="20250904164300 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904164300 +0800" stop="20250904173300 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904173300 +0800" stop="20250904181300 +0800" channel="192">
-    <title lang="zh">下午剧场</title>
-  </programme>
-  <programme start="20250904181300 +0800" stop="20250904183000 +0800" channel="192">
-    <title lang="zh">短剧</title>
-  </programme>
-  <programme start="20250904183000 +0800" stop="20250904185600 +0800" channel="192">
-    <title lang="zh">广东新闻联播</title>
-  </programme>
-  <programme start="20250904185600 +0800" stop="20250904190000 +0800" channel="192">
-    <title lang="zh">天气预报</title>
-  </programme>
-  <programme start="20250904190000 +0800" stop="20250904193300 +0800" channel="192">
-    <title lang="zh">转播中央台新闻联播</title>
-  </programme>
-  <programme start="20250904193300 +0800" stop="20250904202400 +0800" channel="192">
-    <title lang="zh">黄金剧场</title>
-  </programme>
-  <programme start="20250904202400 +0800" stop="20250904212000 +0800" channel="192">
-    <title lang="zh">黄金剧场</title>
-  </programme>
-  <programme start="20250904212000 +0800" stop="20250904214100 +0800" channel="192">
-    <title lang="zh">晚间新闻</title>
-  </programme>
-  <programme start="20250904214100 +0800" stop="20250904221200 +0800" channel="192">
-    <title lang="zh">健康有道</title>
-  </programme>
-  <programme start="20250904221200 +0800" stop="20250904225800 +0800" channel="192">
-    <title lang="zh">剧场</title>
-  </programme>
-  <programme start="20250904225800 +0800" stop="20250904234200 +0800" channel="192">
-    <title lang="zh">剧场</title>
-  </programme>
-  <programme start="20250904234200 +0800" stop="20250904234700 +0800" channel="192">
-    <title lang="zh">荔所能及全球荔量</title>
-  </programme>
-  <programme start="20250904234700 +0800" stop="20250904235300 +0800" channel="192">
-    <title lang="zh">瞰柏桥见精彩</title>
-  </programme>
-  <programme start="20250904235300 +0800" stop="20250904235959 +0800" channel="192">
     <title lang="zh">纪录片</title>
   </programme>
   <channel id="282">
