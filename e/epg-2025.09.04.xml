@@ -9,14 +9,14 @@
   <programme start="20250904004000 +0800" stop="20250904021400 +0800" channel="1">
     <title lang="zh">简牍探中华Ⅱ(3)</title>
   </programme>
-  <programme start="20250904021400 +0800" stop="20250904023200 +0800" channel="1">
+  <programme start="20250904021400 +0800" stop="20250904025900 +0800" channel="1">
     <title lang="zh">晚间新闻</title>
   </programme>
-  <programme start="20250904023200 +0800" stop="20250904024700 +0800" channel="1">
-    <title lang="zh">秘境之眼：流石滩传奇</title>
-  </programme>
-  <programme start="20250904024700 +0800" stop="20250904043600 +0800" channel="1">
+  <programme start="20250904025900 +0800" stop="20250904030600 +0800" channel="1">
     <title lang="zh">非遗里的中国Ⅱ：戏满高台</title>
+  </programme>
+  <programme start="20250904030600 +0800" stop="20250904043600 +0800" channel="1">
+    <title lang="zh">简牍探中华</title>
   </programme>
   <programme start="20250904043600 +0800" stop="20250904052700 +0800" channel="1">
     <title lang="zh">新闻联播</title>
@@ -1182,14 +1182,8 @@
   <programme start="20250904034700 +0800" stop="20250904040000 +0800" channel="16">
     <title lang="zh">新闻直播间</title>
   </programme>
-  <programme start="20250904040000 +0800" stop="20250904043100 +0800" channel="16">
-    <title lang="zh">新闻直播间</title>
-  </programme>
-  <programme start="20250904043100 +0800" stop="20250904045900 +0800" channel="16">
-    <title lang="zh">新闻直播间</title>
-  </programme>
-  <programme start="20250904045900 +0800" stop="20250904054700 +0800" channel="16">
-    <title lang="zh">新闻直播间</title>
+  <programme start="20250904040000 +0800" stop="20250904054700 +0800" channel="16">
+    <title lang="zh">纪念抗战胜利80周年大会</title>
   </programme>
   <programme start="20250904054700 +0800" stop="20250904055900 +0800" channel="16">
     <title lang="zh">新闻直播间</title>
@@ -2585,105 +2579,6 @@
   </programme>
   <programme start="20250904230700 +0800" stop="20250905004900 +0800" channel="30">
     <title lang="zh">红色影像馆</title>
-  </programme>
-  <channel id="31">
-    <display-name lang="zh">湖南卫视高清</display-name>
-  </channel>
-  <programme start="20250904000000 +0800" stop="20250904004600 +0800" channel="31">
-    <title lang="zh">挺起不屈的脊梁(5)</title>
-  </programme>
-  <programme start="20250904004600 +0800" stop="20250904040000 +0800" channel="31">
-    <title lang="zh">新闻大求真</title>
-  </programme>
-  <programme start="20250904040000 +0800" stop="20250904060000 +0800" channel="31">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904060000 +0800" stop="20250904063000 +0800" channel="31">
-    <title lang="zh">新闻大求真</title>
-  </programme>
-  <programme start="20250904063000 +0800" stop="20250904070000 +0800" channel="31">
-    <title lang="zh">纪录片</title>
-  </programme>
-  <programme start="20250904070000 +0800" stop="20250904070100 +0800" channel="31">
-    <title lang="zh">中华人民共和国国歌</title>
-  </programme>
-  <programme start="20250904070100 +0800" stop="20250904073000 +0800" channel="31">
-    <title lang="zh">湖南新闻联播</title>
-  </programme>
-  <programme start="20250904073000 +0800" stop="20250904080000 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(56)</title>
-  </programme>
-  <programme start="20250904080000 +0800" stop="20250904081300 +0800" channel="31">
-    <title lang="zh">萌宝战警之远古巨兽(17)</title>
-  </programme>
-  <programme start="20250904081300 +0800" stop="20250904082600 +0800" channel="31">
-    <title lang="zh">萌宝战警之远古巨兽(18)</title>
-  </programme>
-  <programme start="20250904082600 +0800" stop="20250904084000 +0800" channel="31">
-    <title lang="zh">萌宝战警之远古巨兽(19)</title>
-  </programme>
-  <programme start="20250904084000 +0800" stop="20250904093200 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(57)</title>
-  </programme>
-  <programme start="20250904093200 +0800" stop="20250904102500 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(58)</title>
-  </programme>
-  <programme start="20250904102500 +0800" stop="20250904111700 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(59)</title>
-  </programme>
-  <programme start="20250904111700 +0800" stop="20250904121000 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(60)</title>
-  </programme>
-  <programme start="20250904121000 +0800" stop="20250904123000 +0800" channel="31">
-    <title lang="zh">午间新闻</title>
-  </programme>
-  <programme start="20250904123000 +0800" stop="20250904133000 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(61)</title>
-  </programme>
-  <programme start="20250904133000 +0800" stop="20250904143000 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(62)</title>
-  </programme>
-  <programme start="20250904143000 +0800" stop="20250904153000 +0800" channel="31">
-    <title lang="zh">百万新娘之爱无悔(63)</title>
-  </programme>
-  <programme start="20250904153000 +0800" stop="20250904162000 +0800" channel="31">
-    <title lang="zh">潜渊(19)</title>
-  </programme>
-  <programme start="20250904162000 +0800" stop="20250904171000 +0800" channel="31">
-    <title lang="zh">潜渊(20)</title>
-  </programme>
-  <programme start="20250904171000 +0800" stop="20250904180000 +0800" channel="31">
-    <title lang="zh">潜渊(21)</title>
-  </programme>
-  <programme start="20250904180000 +0800" stop="20250904183000 +0800" channel="31">
-    <title lang="zh">新闻大求真</title>
-  </programme>
-  <programme start="20250904183000 +0800" stop="20250904190000 +0800" channel="31">
-    <title lang="zh">湖南新闻联播</title>
-  </programme>
-  <programme start="20250904190000 +0800" stop="20250904193000 +0800" channel="31">
-    <title lang="zh">转播中央台新闻联播</title>
-  </programme>
-  <programme start="20250904193000 +0800" stop="20250904200000 +0800" channel="31">
-    <title lang="zh">哈哈!请上车(8)</title>
-  </programme>
-  <programme start="20250904200000 +0800" stop="20250904202000 +0800" channel="31">
-    <title lang="zh">歌曲里的抗战-四万万歌壮河山(5)</title>
-  </programme>
-  <programme start="20250904202000 +0800" stop="20250904203000 +0800" channel="31">
-    <title lang="zh">坐标(4)</title>
-  </programme>
-  <programme start="20250904203000 +0800" stop="20250904211500 +0800" channel="31">
-    <title lang="zh">我们的河山(13)</title>
-  </programme>
-  <programme start="20250904211500 +0800" stop="20250904220000 +0800" channel="31">
-    <title lang="zh">我们的河山(14)</title>
-  </programme>
-  <programme start="20250904220000 +0800" stop="20250904230000 +0800" channel="31">
-    <title lang="zh">巴黎合伙人(4)</title>
-  </programme>
-  <programme start="20250904230000 +0800" stop="20250904235959 +0800" channel="31">
-    <title lang="zh">巴黎合伙人(4)</title>
   </programme>
   <channel id="32">
     <display-name lang="zh">浙江卫视高清</display-name>
