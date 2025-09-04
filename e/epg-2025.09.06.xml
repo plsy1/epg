@@ -2622,8 +2622,14 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250905232400 +0800" stop="20250906003900 +0800" channel="35">
-    <title lang="zh">档案纯享版（169）</title>
+  <programme start="20250906000000 +0800" stop="20250906000600 +0800" channel="35">
+    <title lang="zh">档案纯享版(169)</title>
+  </programme>
+  <programme start="20250906000600 +0800" stop="20250906000900 +0800" channel="35">
+    <title lang="zh">晚间气象服务</title>
+  </programme>
+  <programme start="20250906000900 +0800" stop="20250906013200 +0800" channel="35">
+    <title lang="zh">档案</title>
   </programme>
   <programme start="20250906013200 +0800" stop="20250906021400 +0800" channel="35">
     <title lang="zh">剧场</title>
