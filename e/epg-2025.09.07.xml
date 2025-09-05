@@ -2643,8 +2643,14 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250906231800 +0800" stop="20250907001900 +0800" channel="35">
-    <title lang="zh">哈尔滨一九四四（8）</title>
+  <programme start="20250907000000 +0800" stop="20250907000200 +0800" channel="35">
+    <title lang="zh">哈尔滨一九四四(8)</title>
+  </programme>
+  <programme start="20250907000200 +0800" stop="20250907000300 +0800" channel="35">
+    <title lang="zh">广宣时段</title>
+  </programme>
+  <programme start="20250907000300 +0800" stop="20250907010200 +0800" channel="35">
+    <title lang="zh">档案纯享版(187)</title>
   </programme>
   <programme start="20250907010200 +0800" stop="20250907010400 +0800" channel="35">
     <title lang="zh">晚间气象服务</title>
@@ -13077,8 +13083,8 @@
   <channel id="192">
     <display-name lang="zh">广东卫视4K超高清</display-name>
   </channel>
-  <programme start="20250906235600 +0800" stop="20250907001100 +0800" channel="192">
-    <title lang="zh">全球零距离（33）</title>
+  <programme start="20250907000000 +0800" stop="20250907002300 +0800" channel="192">
+    <title lang="zh">全球零距离(33)</title>
   </programme>
   <programme start="20250907002300 +0800" stop="20250907002500 +0800" channel="192">
     <title lang="zh">全球零距离(33)</title>
