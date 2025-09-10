@@ -390,10 +390,10 @@
   <programme start="20250910000000 +0800" stop="20250910000400 +0800" channel="4">
     <title lang="zh">经济半小时</title>
   </programme>
-  <programme start="20250910000400 +0800" stop="20250910010200 +0800" channel="4">
+  <programme start="20250910000400 +0800" stop="20250910010300 +0800" channel="4">
     <title lang="zh">一槌定音</title>
   </programme>
-  <programme start="20250910010200 +0800" stop="20250910014700 +0800" channel="4">
+  <programme start="20250910010300 +0800" stop="20250910014700 +0800" channel="4">
     <title lang="zh">对话</title>
   </programme>
   <programme start="20250910014700 +0800" stop="20250910015600 +0800" channel="4">
@@ -411,22 +411,22 @@
   <programme start="20250910043300 +0800" stop="20250910050100 +0800" channel="4">
     <title lang="zh">回家吃饭</title>
   </programme>
-  <programme start="20250910050100 +0800" stop="20250910053100 +0800" channel="4">
+  <programme start="20250910050100 +0800" stop="20250910053200 +0800" channel="4">
     <title lang="zh">消费主张</title>
   </programme>
-  <programme start="20250910053100 +0800" stop="20250910055800 +0800" channel="4">
+  <programme start="20250910053200 +0800" stop="20250910055800 +0800" channel="4">
     <title lang="zh">生财有道</title>
   </programme>
-  <programme start="20250910055800 +0800" stop="20250910055900 +0800" channel="4">
+  <programme start="20250910055800 +0800" stop="20250910060200 +0800" channel="4">
     <title lang="zh">中华人民共和国国歌</title>
   </programme>
-  <programme start="20250910055900 +0800" stop="20250910070000 +0800" channel="4">
+  <programme start="20250910060200 +0800" stop="20250910070000 +0800" channel="4">
     <title lang="zh">经济信息联播</title>
   </programme>
-  <programme start="20250910070000 +0800" stop="20250910070100 +0800" channel="4">
+  <programme start="20250910070000 +0800" stop="20250910070200 +0800" channel="4">
     <title lang="zh">中华人民共和国国歌</title>
   </programme>
-  <programme start="20250910070100 +0800" stop="20250910090000 +0800" channel="4">
+  <programme start="20250910070200 +0800" stop="20250910090000 +0800" channel="4">
     <title lang="zh">第一时间</title>
   </programme>
   <programme start="20250910090000 +0800" stop="20250910100000 +0800" channel="4">
@@ -2610,28 +2610,34 @@
   <programme start="20250910003500 +0800" stop="20250910040000 +0800" channel="31">
     <title lang="zh">新闻大求真</title>
   </programme>
-  <programme start="20250910040000 +0800" stop="20250910050000 +0800" channel="31">
+  <programme start="20250910041100 +0800" stop="20250910043500 +0800" channel="31">
     <title lang="zh">纪录片</title>
   </programme>
-  <programme start="20250910050000 +0800" stop="20250910063000 +0800" channel="31">
+  <programme start="20250910043500 +0800" stop="20250910050500 +0800" channel="31">
+    <title lang="zh">平民英雄</title>
+  </programme>
+  <programme start="20250910050500 +0800" stop="20250910060800 +0800" channel="31">
+    <title lang="zh">首发</title>
+  </programme>
+  <programme start="20250910060800 +0800" stop="20250910063700 +0800" channel="31">
     <title lang="zh">新闻大求真</title>
   </programme>
-  <programme start="20250910063000 +0800" stop="20250910070000 +0800" channel="31">
+  <programme start="20250910063700 +0800" stop="20250910070000 +0800" channel="31">
     <title lang="zh">纪录片</title>
   </programme>
   <programme start="20250910070000 +0800" stop="20250910070100 +0800" channel="31">
     <title lang="zh">中华人民共和国国歌</title>
   </programme>
-  <programme start="20250910070100 +0800" stop="20250910073000 +0800" channel="31">
+  <programme start="20250910070100 +0800" stop="20250910073300 +0800" channel="31">
     <title lang="zh">湖南新闻联播</title>
   </programme>
-  <programme start="20250910073000 +0800" stop="20250910074500 +0800" channel="31">
+  <programme start="20250910073300 +0800" stop="20250910074400 +0800" channel="31">
     <title lang="zh">学习身边榜样(5)</title>
   </programme>
-  <programme start="20250910074500 +0800" stop="20250910080000 +0800" channel="31">
+  <programme start="20250910074400 +0800" stop="20250910075800 +0800" channel="31">
     <title lang="zh">学习身边榜样(6)</title>
   </programme>
-  <programme start="20250910080000 +0800" stop="20250910081300 +0800" channel="31">
+  <programme start="20250910075800 +0800" stop="20250910081300 +0800" channel="31">
     <title lang="zh">萌宝战警-源途之战(3)</title>
   </programme>
   <programme start="20250910081300 +0800" stop="20250910082600 +0800" channel="31">
@@ -3372,10 +3378,16 @@
   <programme start="20250910003300 +0800" stop="20250910012300 +0800" channel="37">
     <title lang="zh">小日子(14)</title>
   </programme>
-  <programme start="20250910012300 +0800" stop="20250910041000 +0800" channel="37">
+  <programme start="20250910012300 +0800" stop="20250910023400 +0800" channel="37">
     <title lang="zh">非你莫属</title>
   </programme>
-  <programme start="20250910063000 +0800" stop="20250910070000 +0800" channel="37">
+  <programme start="20250910023400 +0800" stop="20250910031500 +0800" channel="37">
+    <title lang="zh">群英会</title>
+  </programme>
+  <programme start="20250910031500 +0800" stop="20250910033300 +0800" channel="37">
+    <title lang="zh">非你莫属</title>
+  </programme>
+  <programme start="20250910063500 +0800" stop="20250910070000 +0800" channel="37">
     <title lang="zh">中国人</title>
   </programme>
   <programme start="20250910070000 +0800" stop="20250910070100 +0800" channel="37">
