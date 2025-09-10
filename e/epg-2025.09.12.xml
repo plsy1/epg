@@ -2826,8 +2826,14 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250911233900 +0800" stop="20250912003700 +0800" channel="35">
-    <title lang="zh">紫禁城（4）</title>
+  <programme start="20250912000000 +0800" stop="20250912002300 +0800" channel="35">
+    <title lang="zh">紫禁城(4)</title>
+  </programme>
+  <programme start="20250912002300 +0800" stop="20250912002600 +0800" channel="35">
+    <title lang="zh">晚间气象服务</title>
+  </programme>
+  <programme start="20250912002600 +0800" stop="20250912014800 +0800" channel="35">
+    <title lang="zh">档案</title>
   </programme>
   <programme start="20250912014800 +0800" stop="20250912023100 +0800" channel="35">
     <title lang="zh">剧场</title>
@@ -13518,8 +13524,8 @@
   <channel id="192">
     <display-name lang="zh">广东卫视4K超高清</display-name>
   </channel>
-  <programme start="20250911235200 +0800" stop="20250912001600 +0800" channel="192">
-    <title lang="zh">转身遇到你（7）</title>
+  <programme start="20250912000000 +0800" stop="20250912002100 +0800" channel="192">
+    <title lang="zh">转身遇到你(7)</title>
   </programme>
   <programme start="20250912002100 +0800" stop="20250912005200 +0800" channel="192">
     <title lang="zh">纪录片</title>
