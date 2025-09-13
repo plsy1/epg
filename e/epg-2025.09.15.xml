@@ -2652,34 +2652,34 @@
   <channel id="33">
     <display-name lang="zh">东方卫视高清</display-name>
   </channel>
-  <programme start="20250915001600 +0800" stop="20250915011900 +0800" channel="33">
+  <programme start="20250915001500 +0800" stop="20250915011700 +0800" channel="33">
     <title lang="zh">听，谁在唱歌(4)</title>
   </programme>
-  <programme start="20250915011900 +0800" stop="20250915020000 +0800" channel="33">
+  <programme start="20250915011700 +0800" stop="20250915015800 +0800" channel="33">
     <title lang="zh">长相思第一季(12)</title>
   </programme>
-  <programme start="20250915020000 +0800" stop="20250915020300 +0800" channel="33">
+  <programme start="20250915015800 +0800" stop="20250915020100 +0800" channel="33">
     <title lang="zh">《我们的河山》明日精彩看点</title>
   </programme>
-  <programme start="20250915020300 +0800" stop="20250915024500 +0800" channel="33">
+  <programme start="20250915020100 +0800" stop="20250915024300 +0800" channel="33">
     <title lang="zh">长相思第一季(13)</title>
   </programme>
-  <programme start="20250915024500 +0800" stop="20250915032700 +0800" channel="33">
+  <programme start="20250915024300 +0800" stop="20250915032500 +0800" channel="33">
     <title lang="zh">长相思第一季(14)</title>
   </programme>
-  <programme start="20250915032700 +0800" stop="20250915033000 +0800" channel="33">
+  <programme start="20250915032500 +0800" stop="20250915032800 +0800" channel="33">
     <title lang="zh">《我们的河山》明日精彩看点</title>
   </programme>
-  <programme start="20250915033000 +0800" stop="20250915041200 +0800" channel="33">
+  <programme start="20250915032800 +0800" stop="20250915041100 +0800" channel="33">
     <title lang="zh">长相思第一季(15)</title>
   </programme>
-  <programme start="20250915041200 +0800" stop="20250915045400 +0800" channel="33">
+  <programme start="20250915041100 +0800" stop="20250915045300 +0800" channel="33">
     <title lang="zh">长相思第一季(16)</title>
   </programme>
-  <programme start="20250915045400 +0800" stop="20250915045700 +0800" channel="33">
+  <programme start="20250915045300 +0800" stop="20250915045600 +0800" channel="33">
     <title lang="zh">《我们的河山》明日精彩看点</title>
   </programme>
-  <programme start="20250915045700 +0800" stop="20250915054100 +0800" channel="33">
+  <programme start="20250915045600 +0800" stop="20250915054100 +0800" channel="33">
     <title lang="zh">长相思第一季(17)</title>
   </programme>
   <programme start="20250915054100 +0800" stop="20250915062300 +0800" channel="33">
@@ -2889,8 +2889,14 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250914232400 +0800" stop="20250915001300 +0800" channel="35">
-    <title lang="zh">紫禁城（7）</title>
+  <programme start="20250915000000 +0800" stop="20250915001000 +0800" channel="35">
+    <title lang="zh">紫禁城(7)</title>
+  </programme>
+  <programme start="20250915001000 +0800" stop="20250915001200 +0800" channel="35">
+    <title lang="zh">晚间气象服务</title>
+  </programme>
+  <programme start="20250915001200 +0800" stop="20250915001300 +0800" channel="35">
+    <title lang="zh">广宣时段</title>
   </programme>
   <programme start="20250915001300 +0800" stop="20250915005900 +0800" channel="35">
     <title lang="zh">档案纯享版(238)</title>
@@ -13713,8 +13719,11 @@
   <channel id="192">
     <display-name lang="zh">广东卫视4K超高清</display-name>
   </channel>
-  <programme start="20250914232200 +0800" stop="20250915001400 +0800" channel="192">
-    <title lang="zh">转身遇到你（12）</title>
+  <programme start="20250915000000 +0800" stop="20250915000300 +0800" channel="192">
+    <title lang="zh">转身遇到你(12)</title>
+  </programme>
+  <programme start="20250915000300 +0800" stop="20250915004500 +0800" channel="192">
+    <title lang="zh">转身遇到你(13)</title>
   </programme>
   <programme start="20250915004500 +0800" stop="20250915012000 +0800" channel="192">
     <title lang="zh">从农场到餐桌(199)：黑棕鹅</title>
