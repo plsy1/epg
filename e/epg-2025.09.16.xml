@@ -2754,8 +2754,11 @@
   <channel id="35">
     <display-name lang="zh">北京卫视高清</display-name>
   </channel>
-  <programme start="20250915235100 +0800" stop="20250916001200 +0800" channel="35">
-    <title lang="zh">紫禁城（8）</title>
+  <programme start="20250916000000 +0800" stop="20250916000200 +0800" channel="35">
+    <title lang="zh">紫禁城(8)</title>
+  </programme>
+  <programme start="20250916000200 +0800" stop="20250916013400 +0800" channel="35">
+    <title lang="zh">档案</title>
   </programme>
   <programme start="20250916013400 +0800" stop="20250916021600 +0800" channel="35">
     <title lang="zh">剧场</title>
@@ -13443,8 +13446,8 @@
   <channel id="192">
     <display-name lang="zh">广东卫视4K超高清</display-name>
   </channel>
-  <programme start="20250915234500 +0800" stop="20250916001400 +0800" channel="192">
-    <title lang="zh">恋爱特别邀请（1）</title>
+  <programme start="20250916000000 +0800" stop="20250916002500 +0800" channel="192">
+    <title lang="zh">纪录片</title>
   </programme>
   <programme start="20250916002500 +0800" stop="20250916005600 +0800" channel="192">
     <title lang="zh">纪录片</title>
