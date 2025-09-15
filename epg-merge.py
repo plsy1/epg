@@ -49,7 +49,7 @@ def merge_epg_files(file_list):
 def save_merged_epg(files, filename):
     merged_xml = merge_epg_files(files)
 
-    with open(f"e/{filename}.xml", "w", encoding="utf-8") as f:
+    with open(f"e/{filename}", "w", encoding="utf-8") as f:
         f.write(merged_xml)
 
     with gzip.open(f"e/{filename}.gz", "wt", encoding="utf-8") as f:
@@ -65,7 +65,7 @@ def merge():
     epg_files.append((today + timedelta(days=1)).strftime("e/epg-%Y.%m.%d.xml"))
     epg_files.sort(key=lambda x: datetime.strptime(x, "e/epg-%Y.%m.%d.xml"))
 
-    filename = "seven-days"
+    filename = "seven-days.xml"
 
     save_merged_epg(epg_files, filename)
 
