@@ -278,7 +278,7 @@ getRawInformation(jsessionid)
 channelData = processRawInformation()
 
 generateEPG(channelData, jsessionid, get_date_str(),f"e/date/epg-{get_date_str()}.xml")
-generateEPG(channelData, jsessionid, get_date_str(),f"e/date/epg-{get_date_str(1)}.xml")
+generateEPG(channelData, jsessionid, get_date_str(1),f"e/date/epg-{get_date_str(1)}.xml")
 generateEPG(channelData, jsessionid, get_date_str(),"iptv.xml")
 
 merge_epg_by_displayname(merge_list, "e/e.xml")
