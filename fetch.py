@@ -1,6 +1,6 @@
 import requests
 import re
-import gzip
+import shutil
 import json
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
@@ -277,11 +277,17 @@ getRawInformation(jsessionid)
 
 channelData = processRawInformation()
 
-generateEPG(channelData, jsessionid, get_date_str(),f"e/date/epg-{get_date_str()}.xml")
-generateEPG(channelData, jsessionid, get_date_str(1),f"e/date/epg-{get_date_str(1)}.xml")
-generateEPG(channelData, jsessionid, get_date_str(),"iptv.xml")
+today_file = f"e/date/epg-{get_date_str()}.xml"
+tomorrow_file = f"e/date/epg-{get_date_str(1)}.xml"
+final_file = "e/e.xml"
 
-merge_epg_by_displayname(merge_list, "e/e.xml")
-merge_epg_by_displayname(merge_list, f"e/date/epg-{get_date_str()}.xml")
+generateEPG(channelData, jsessionid, get_date_str(),today_file)
+generateEPG(channelData, jsessionid, get_date_str(1),tomorrow_file)
+
+shutil.copy(today_file, "iptv.xml")
+
+merge_epg_by_displayname(merge_list, final_file)
+
+shutil.copy(final_file, today_file)
 
 merge_seven_days()

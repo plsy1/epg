@@ -24,6 +24,8 @@ def merge_epg_by_displayname(merge_list, output_file):
         for ch in root.findall("channel"):
             ch_id = ch.attrib.get("id")
             name_elem = ch.find("display-name")
+            if name_elem is None:
+                print(f"频道 {ch_id} 缺少 <display-name>")
             write_channel = not display_names or (name_elem is not None and name_elem.text in display_names)
 
             if write_channel:
