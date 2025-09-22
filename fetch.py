@@ -1,5 +1,6 @@
 import requests
 import re
+import gzip
 import json
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
@@ -9,6 +10,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from datetime import datetime, timedelta
 from config import *
+from merge import merge_epg_by_displayname,merge_seven_days
 
 
 def Entrance():
@@ -251,8 +253,13 @@ def generateEPG(channelData, jsessionid, date):
     parsed_str = minidom.parseString(xml_str)
     pretty_xml_str = parsed_str.toprettyxml(indent="  ")
 
-    with open(f"e/epg-{date}.xml", "w", encoding="utf-8") as f:
+    with open(f"e/date/epg-{date}.xml", "w", encoding="utf-8") as f:
         f.write(pretty_xml_str)
+
+    if date == get_date_str():
+        with open(f"iptv.xml", "w", encoding="utf-8") as f:
+            f.write(pretty_xml_str)
+
         
 def get_date_str(offset=0):
     date = datetime.now() + timedelta(days=offset)
@@ -273,4 +280,10 @@ channelData = processRawInformation()
 
 generateEPG(channelData, jsessionid, get_date_str())
 
+merge_epg_by_displayname(merge_list, "e/e.xml")
+
+merge_epg_by_displayname(merge_list, f"e/date/epg-{get_date_str()}.xml")
+
 generateEPG(channelData, jsessionid, get_date_str(1))
+
+merge_seven_days()

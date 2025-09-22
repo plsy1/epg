@@ -5,6 +5,37 @@ import re
 import os
 from datetime import datetime, timedelta
 
+def merge_epg_by_displayname(merge_list, output_file):
+    """
+    merge_list: 列表 [(xml_file, [display_name1, display_name2, ...]), ...]
+                display_name 列表为空表示写入该文件的所有频道和节目
+    output_file: 合并后的 XML 文件
+    """
+    merged_root = ET.Element("tv", generator_info_name="merged")
+
+    for epg_file, display_names in merge_list:
+        try:
+            tree = ET.parse(epg_file)
+            root = tree.getroot()
+        except FileNotFoundError:
+            print(f"文件不存在: {epg_file}, 已跳过")
+            continue
+
+        for ch in root.findall("channel"):
+            ch_id = ch.attrib.get("id")
+            name_elem = ch.find("display-name")
+            write_channel = not display_names or (name_elem is not None and name_elem.text in display_names)
+
+            if write_channel:
+                merged_root.append(ch)
+                for prog in root.findall("programme"):
+                    if prog.attrib.get("channel") == ch_id:
+                        merged_root.append(prog)
+
+    merged_tree = ET.ElementTree(merged_root)
+    merged_tree.write(output_file, encoding="utf-8", xml_declaration=True)
+    print(f"合并完成，输出文件: {output_file}")
+
 def merge_epg_files(file_list):
     channel_dict = {}
 
@@ -68,5 +99,5 @@ def merge_seven_days():
 
     save_merged_epg(epg_files, filename)
 
-merge_seven_days()
+
 
