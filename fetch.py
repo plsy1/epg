@@ -226,6 +226,9 @@ def generateEPG(channelData, jsessionid, date, output_filename):
         UserChannelID = channel["UserChannelID"]
         channelcode = channel["ChannelID"]
 
+        ChannelName = ChannelName.replace("超高清", "").replace("高清", "").replace("标清", "").replace(" ", "")
+        ChannelName = name_map_by_name.get(ChannelName, ChannelName)
+
         print(f"正在处理：{ChannelName}")
 
         epgData = getEPGList(jsessionid, channelcode, date)
