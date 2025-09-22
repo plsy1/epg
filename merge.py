@@ -4,7 +4,6 @@ import gzip
 import re
 import os
 from datetime import datetime, timedelta
-import requests
 
 def merge_epg_files(file_list):
     channel_dict = {}
@@ -56,7 +55,7 @@ def save_merged_epg(files, filename):
         f.write(merged_xml)
 
 
-def merge():
+def merge_seven_days():
     today = datetime.today()
 
     epg_files = [
@@ -69,65 +68,5 @@ def merge():
 
     save_merged_epg(epg_files, filename)
 
+merge_seven_days()
 
-def download_xml(url, save_path):
-    try:
-        res = requests.get(url, timeout=10)
-        res.raise_for_status() 
-        res.encoding = 'utf-8'
-        with open(save_path, 'w', encoding='utf-8') as f:
-            f.write(res.text)
-        print(f"下载成功: {save_path}")
-    except requests.RequestException as e:
-        print(f"下载失败: {e}")
-
-
-def merge_epg_by_displayname(epg_files_with_displayname, output_file):
-    """
-    epg_files_with_displayname: 列表 [(xml_file, display_name), ...]
-    output_file: 合并后的 XML 文件
-    """
-    merged_root = ET.Element('tv', generator_info_name="merged")
-
-    for epg_file, display_name in epg_files_with_displayname:
-        try:
-            tree = ET.parse(epg_file)
-            root = tree.getroot()
-        except FileNotFoundError:
-            print(f"文件不存在: {epg_file}, 已跳过")
-            continue
-
-        channel_map = {}
-        for ch in root.findall('channel'):
-            ch_id = ch.attrib.get('id')
-            name_elem = ch.find('display-name')
-            if name_elem is not None and name_elem.text == display_name:
-                channel_map[ch_id] = display_name
-                merged_root.append(ch)
-
-        for prog in root.findall('programme'):
-            ch_id = prog.attrib.get('channel')
-            if ch_id in channel_map:
-                merged_root.append(prog)
-                
-    merged_tree = ET.ElementTree(merged_root)
-    merged_tree.write(output_file, encoding='utf-8', xml_declaration=True)
-    print(f"合并完成，输出文件: {output_file}")
-
-def merge_others():
-    import json
-
-    with open('config.json', 'r', encoding='utf-8') as f:
-        epg_config = json.load(f)
-
-    epg_list = []
-    for item in epg_config:
-        for name in item['display_name']:
-            epg_list.append((item['file'], name))
-
-    download_xml('https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml', '112114-today.xml')
-
-    merge_epg_by_displayname(epg_list, 'e-merged.xml')
-
-merge()
-# merge_others()
