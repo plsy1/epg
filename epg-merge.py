@@ -60,10 +60,10 @@ def merge():
     today = datetime.today()
 
     epg_files = [
-        (today - timedelta(days=i)).strftime("e/epg-%Y.%m.%d.xml") for i in range(7)
+        (today - timedelta(days=i)).strftime("e/date/epg-%Y.%m.%d.xml") for i in range(7)
     ]
-    epg_files.append((today + timedelta(days=1)).strftime("e/epg-%Y.%m.%d.xml"))
-    epg_files.sort(key=lambda x: datetime.strptime(x, "e/epg-%Y.%m.%d.xml"))
+    epg_files.append((today + timedelta(days=1)).strftime("e/date/epg-%Y.%m.%d.xml"))
+    epg_files.sort(key=lambda x: datetime.strptime(x, "e/date/epg-%Y.%m.%d.xml"))
 
     filename = "seven-days.xml"
 
