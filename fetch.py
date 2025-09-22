@@ -217,7 +217,7 @@ def convert_to_epg_time(date_str):
     return dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
 
-def generateEPG(channelData, jsessionid, date):
+def generateEPG(channelData, jsessionid, date, output_filename):
     root = ET.Element("tv", generator_info_name="https://github.com/plsy1/iptv")
 
     for channel in channelData:
@@ -253,12 +253,8 @@ def generateEPG(channelData, jsessionid, date):
     parsed_str = minidom.parseString(xml_str)
     pretty_xml_str = parsed_str.toprettyxml(indent="  ")
 
-    with open(f"e/date/epg-{date}.xml", "w", encoding="utf-8") as f:
+    with open(output_filename, "w", encoding="utf-8") as f:
         f.write(pretty_xml_str)
-
-    if date == get_date_str():
-        with open(f"iptv.xml", "w", encoding="utf-8") as f:
-            f.write(pretty_xml_str)
 
         
 def get_date_str(offset=0):
@@ -278,12 +274,11 @@ getRawInformation(jsessionid)
 
 channelData = processRawInformation()
 
-generateEPG(channelData, jsessionid, get_date_str())
+generateEPG(channelData, jsessionid, get_date_str(),f"e/date/epg-{get_date_str()}.xml")
+generateEPG(channelData, jsessionid, get_date_str(),f"e/date/epg-{get_date_str(1)}.xml")
+generateEPG(channelData, jsessionid, get_date_str(),"iptv.xml")
 
 merge_epg_by_displayname(merge_list, "e/e.xml")
-
 merge_epg_by_displayname(merge_list, f"e/date/epg-{get_date_str()}.xml")
-
-generateEPG(channelData, jsessionid, get_date_str(1))
 
 merge_seven_days()
