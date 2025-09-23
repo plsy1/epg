@@ -221,7 +221,7 @@ def convert_to_epg_time(date_str):
 def generateEPG(channelData, jsessionid, date, output_filename):
     root = ET.Element("tv", generator_info_name="https://github.com/plsy1/iptv")
 
-    for channel in tqdm(channelData, desc="生成EPG", unit="频道"):
+    for channel in tqdm(channelData, desc=f"生成 EPG - {date}"):
         ChannelName = channel["ChannelName"]
         UserChannelID = channel["UserChannelID"]
         channelcode = channel["ChannelID"]
