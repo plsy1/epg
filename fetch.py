@@ -237,9 +237,10 @@ def generateEPG(channelData, jsessionid, date, output_filename):
             if epgData:
                 break
             retries += 1
-            print(f"第 {retries} 次重试获取 {ChannelName}")
+            # print(f"第 {retries} 次重试获取 {ChannelName}")
 
         if not epgData:
+            print(f"获取 {ChannelName} 节目单失败")
             continue
 
         channel_element = ET.SubElement(root, "channel", id=UserChannelID)
