@@ -231,7 +231,14 @@ def generateEPG(channelData, jsessionid, date, output_filename):
 
         print(f"正在处理：{ChannelName}")
 
-        epgData = getEPGList(jsessionid, channelcode, date)
+        max_retries = 5
+        retries = 0
+        epgData = None
+        while retries < max_retries:
+            epgData = getEPGList(jsessionid, channelcode, date)
+            if epgData:
+                break
+            retries += 1
 
         if not epgData:
             continue
