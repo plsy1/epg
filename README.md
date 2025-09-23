@@ -19,13 +19,12 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2025-09-24 01:07:50 UTC+8
+**更新时间**: 2025-09-24 01:12:03 UTC+8
 
-**频道总数**: 163
+**频道总数**: 164
 
 | 频道名称 | 频道号 |
 |--------------|------------|
-| 浙江卫视4K |  |
 | CCTV1 | 1 |
 | 山东卫视 | 2 |
 | CCTV2 | 4 |
@@ -48,7 +47,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 山东新闻 | 25 |
 | 山东农科 | 26 |
 | 山东少儿 | 27 |
-| 湖南卫视4K | 28 |
 | 山东教育 | 30 |
 | 湖南卫视 | 31 |
 | 浙江卫视 | 32 |
@@ -127,7 +125,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 梨园 | 120 |
 | 武术世界 | 121 |
 | 文物宝库 | 122 |
-| 四川卫视4K | 123 |
 | 茶 | 124 |
 | 快乐垂钓 | 125 |
 | 求索纪录 | 126 |
@@ -135,7 +132,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 新动漫 | 130 |
 | 城市剧场 | 131 |
 | 音乐现场 | 132 |
-| 江苏卫视4K | 133 |
+| 军旅剧场 | 133 |
 | 足球 | 134 |
 | 古装剧场 | 135 |
 | 军事 | 136 |
@@ -174,8 +171,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 爱体育 | 169 |
 | 爱电影 | 170 |
 | 爱大剧 | 171 |
-| 山东卫视4K | 172 |
-| 东方卫视4K | 176 |
 | 四海钓鱼 | 183 |
 | 环球旅游 | 184 |
 | 优优宝贝 | 185 |
@@ -188,3 +183,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 泰山电视频道 | 489 |
 | 泰安综合 | 709 |
 | 汽摩 | 889 |
+| 东方卫视4K | 东方卫视4K |
+| 四川卫视4K | 四川卫视4K |
+| 山东卫视4K | 山东卫视4K |
+| 江苏卫视4K | 江苏卫视4K |
+| 浙江卫视4K | 浙江卫视4K |
+| 湖南卫视4K | 湖南卫视4K |
