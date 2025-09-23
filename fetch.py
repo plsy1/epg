@@ -229,7 +229,7 @@ def generateEPG(channelData, jsessionid, date, output_filename):
         ChannelName = ChannelName.replace("超高清", "").replace("高清", "").replace("标清", "").replace(" ", "")
         ChannelName = name_map_by_name.get(ChannelName, ChannelName)
 
-        max_retries = 5
+        max_retries = 3
         retries = 0
         epgData = None
         while retries < max_retries:
@@ -237,10 +237,7 @@ def generateEPG(channelData, jsessionid, date, output_filename):
             if epgData:
                 break
             retries += 1
-            # print(f"第 {retries} 次重试获取 {ChannelName}")
-
         if not epgData:
-            print(f"获取 {ChannelName} 节目单失败")
             continue
 
         channel_element = ET.SubElement(root, "channel", id=UserChannelID)
