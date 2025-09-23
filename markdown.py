@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
-from datetime import datetime
-
+from datetime import datetime, timedelta, timezone
 def write_displaynames_to_md_table(epg_file, md_file, template_md="data/README-TEMPLATE.md"):
     """
     将 EPG XML 文件的 display-name 写入 Markdown 表格，
@@ -28,13 +27,16 @@ def write_displaynames_to_md_table(epg_file, md_file, template_md="data/README-T
             channels.append((dn_elem.text, ch_id))
 
     total_channels = len(channels)
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+
+    tz_utc8 = timezone(timedelta(hours=8))
+    now_str = datetime.now(tz=tz_utc8).strftime("%Y-%m-%d %H:%M:%S")
+    
     lines = []
     lines.extend(template_lines)
     lines.append("\n")
     lines.append(f"## 节目单信息\n")
-    lines.append(f"**更新时间**: {now_str}\n")
+    lines.append(f"**更新时间**: {now_str} UTC+8\n")
     lines.append(f"**频道总数**: {total_channels}\n")
     lines.append("| 频道名称 | 频道号 |")
     lines.append("|--------------|------------|")
