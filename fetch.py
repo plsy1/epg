@@ -11,7 +11,7 @@ from xml.dom import minidom
 from datetime import datetime, timedelta
 from config import *
 from merge import merge_epg_by_displayname,merge_seven_days
-
+from markdown import write_displaynames_to_md_table
 
 def Entrance():
     url = f"http://{eas_ip}:{eas_port}/iptvepg/platform/index.jsp?UserID={userID}&Action=Login&Mode=MENU"
@@ -145,14 +145,14 @@ def getRawInformation(jsessionid):
 
     response = requests.post(url, headers=headers, data=data)
 
-    with open("raw.txt", "w", encoding="utf-8") as file:
+    with open("data/raw.txt", "w", encoding="utf-8") as file:
         file.write(response.content.decode("gbk"))
 
 
 def processRawInformation():
     channels = []
 
-    with open("raw.txt", "r", encoding="utf-8") as file:
+    with open("data/raw.txt", "r", encoding="utf-8") as file:
         for line in file:
             match = re.search(r"jsSetConfig\('Channel',\s*'([^']+)'\)", line)
 
@@ -162,7 +162,7 @@ def processRawInformation():
                 config_dict = dict(re.findall(pattern, config_str))
                 channels.append(config_dict)
 
-    with open("iptv.json", "w", encoding="utf-8") as json_file:
+    with open("data/iptv.json", "w", encoding="utf-8") as json_file:
         json.dump(channels, json_file, ensure_ascii=False, indent=4)
     return channels
 
@@ -284,10 +284,12 @@ final_file = "e/e.xml"
 generateEPG(channelData, jsessionid, get_date_str(),today_file)
 generateEPG(channelData, jsessionid, get_date_str(1),tomorrow_file)
 
-shutil.copy(today_file, "iptv.xml")
+shutil.copy(today_file, "data/iptv.xml")
 
 merge_epg_by_displayname(merge_list, final_file)
 
 shutil.copy(final_file, today_file)
 
 merge_seven_days()
+
+write_displaynames_to_md_table("e/e.xml", "README.md")
