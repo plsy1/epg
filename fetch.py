@@ -2,6 +2,7 @@ import requests
 import re
 import shutil
 import json
+from tqdm import tqdm
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
 import random
@@ -220,16 +221,13 @@ def convert_to_epg_time(date_str):
 def generateEPG(channelData, jsessionid, date, output_filename):
     root = ET.Element("tv", generator_info_name="https://github.com/plsy1/iptv")
 
-    for channel in channelData:
-
+    for channel in tqdm(channelData, desc="生成EPG", unit="频道"):
         ChannelName = channel["ChannelName"]
         UserChannelID = channel["UserChannelID"]
         channelcode = channel["ChannelID"]
 
         ChannelName = ChannelName.replace("超高清", "").replace("高清", "").replace("标清", "").replace(" ", "")
         ChannelName = name_map_by_name.get(ChannelName, ChannelName)
-
-        print(f"正在处理：{ChannelName}")
 
         max_retries = 5
         retries = 0
