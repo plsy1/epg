@@ -1,19 +1,7 @@
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
-import gzip
-import re
-import os
 import copy
-from datetime import datetime, timedelta
-from config import special_map,raw_channel_id_map
-
-def get_date_str(offset=0):
-    date = datetime.now() + timedelta(days=offset)
-    return date.strftime("%Y.%m.%d")
-
-def convert_to_epg_time(date_str):
-    dt = datetime.strptime(date_str, "%Y.%m.%d %H:%M:%S")
-    return dt.strftime("%Y%m%d%H%M%S") + " +0800"
+from config import special_map,raw_channel_id_map,build_merge_list
+from utils import *
 
 def parse_epg_file(epg_file):
     """解析 XML 文件，返回 root 对象"""
@@ -23,10 +11,6 @@ def parse_epg_file(epg_file):
     except FileNotFoundError:
         print(f"文件不存在: {epg_file}, 已跳过")
         return None
-
-def natural_key(s):
-    """自然排序 key，例如 'ch10a' -> ['ch', 10, 'a']"""
-    return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', s)]
 
 def get_channel_infos(name, ch_id):
     """
@@ -40,9 +24,13 @@ def get_channel_infos(name, ch_id):
         special_info = (special_map[name]["new_id"], special_map[name]["new_name"])
     return original_id, special_info
 
-def append_channel_from_other_epg(merge_list, output_file):
-    channels_dict = {}     # {channel_id: channel_element}
-    programmes_dict = {}   # {channel_id: [programme_elements]}
+def merge_epg(offset: int=0):
+    date = get_date_str(offset)
+    merge_list = build_merge_list(offset)
+    print(f"合并节目单 {date}...")
+    output_file=f"data/final/final-{date}.xml"
+    channels_dict = {}   
+    programmes_dict = {}
     written_channels = set()
 
     for epg_file, display_names in merge_list:
@@ -79,6 +67,7 @@ def append_channel_from_other_epg(merge_list, output_file):
                     prog_copy = copy.deepcopy(prog)
                     prog_copy.set("channel", original_id)
                     programmes_dict[original_id].append(prog_copy)
+            
 
             if special_info:
                 special_id, special_name = special_info
@@ -106,68 +95,6 @@ def append_channel_from_other_epg(merge_list, output_file):
             merged_root.append(prog_elem)
 
     ET.ElementTree(merged_root).write(output_file, encoding="utf-8", xml_declaration=True)
-
-
-def merge_epg_files(file_list):
-    channel_dict = {}
-
-    for file in file_list:
-        if not os.path.isfile(file):
-            continue
-        tree = ET.parse(file)
-        root = tree.getroot()
-
-        for channel_element in root.findall("channel"):
-            channel_id = channel_element.get("id")
-
-            if channel_id not in channel_dict:
-                channel_dict[channel_id] = {
-                    "channel_element": channel_element,
-                    "programmes": [],
-                }
-
-            for programme in root.findall("programme"):
-                if programme.get("channel") == channel_id:
-                    channel_dict[channel_id]["programmes"].append(programme)
-
-    new_root = ET.Element("tv", generator_info_name="https://github.com/plsy1/iptv")
-
-    for channel_id, data in channel_dict.items():
-        new_channel = ET.SubElement(new_root, "channel", id=channel_id)
-        new_channel.append(data["channel_element"].find("display-name"))
-
-        for programme in data["programmes"]:
-            new_root.append(programme)
-
-    xml_str = ET.tostring(new_root, encoding="utf-8")
-    parsed_str = minidom.parseString(xml_str)
-    pretty_xml_str = parsed_str.toprettyxml(indent="  ")
-    pretty_xml_str = re.sub(r"\n\s*\n", "\n", pretty_xml_str)  ##去除空行
-    # pretty_xml_str = re.sub(r">\n\s*<", "><", pretty_xml_str)  ##最小化
-
-    return pretty_xml_str
-
-
-def save_merged_epg(files, filename):
-    merged_xml = merge_epg_files(files)
-
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(merged_xml)
-
-    with gzip.open(f'{filename}.gz', "wt", encoding="utf-8") as f:
-        f.write(merged_xml)
-
-
-def gennerate_multi_day(forward,backward,filename):
-    today = datetime.today()
-
-    epg_files = [
-        (today - timedelta(days=i)).strftime("e/date/epg-%Y.%m.%d.xml") for i in range(forward+1)
-    ]
-    epg_files.append((today + timedelta(days=backward)).strftime("e/date/epg-%Y.%m.%d.xml"))
-    epg_files.sort(key=lambda x: datetime.strptime(x, "e/date/epg-%Y.%m.%d.xml"))
-
-    save_merged_epg(epg_files, filename)
 
 
 
