@@ -29,9 +29,11 @@ def merge_epg_files(file_list):
                 if programme.get("channel") == channel_id:
                     channel_dict[channel_id]["programmes"].append(programme)
 
+    sorted_keys = sorted(channel_dict.keys(), key=natural_key)
+
     new_root = ET.Element("tv", generator_info_name="https://github.com/plsy1/iptv")
 
-    for channel_id, data in channel_dict.items():
+    for channel_id, data in sorted_keys.items():
         new_channel = ET.SubElement(new_root, "channel", id=channel_id)
         new_channel.append(data["channel_element"].find("display-name"))
 

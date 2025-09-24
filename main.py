@@ -5,12 +5,12 @@ from merge import merge_epg
 from multiday import generate_multiday
 from markdown import update_readme
 
-get_epg_from_unicom()
-get_epg_from_cctv()
-get_epg_from_112114()
+# get_epg_from_unicom()
+# get_epg_from_cctv()
+# get_epg_from_112114()
 
-merge_epg()
-merge_epg(1)
+# merge_epg()
+# merge_epg(1)
 
 generate_multiday()
 
