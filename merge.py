@@ -7,6 +7,14 @@ import copy
 from datetime import datetime, timedelta
 from config import special_map,raw_channel_id_map
 
+def get_date_str(offset=0):
+    date = datetime.now() + timedelta(days=offset)
+    return date.strftime("%Y.%m.%d")
+
+def convert_to_epg_time(date_str):
+    dt = datetime.strptime(date_str, "%Y.%m.%d %H:%M:%S")
+    return dt.strftime("%Y%m%d%H%M%S") + " +0800"
+
 def parse_epg_file(epg_file):
     """解析 XML 文件，返回 root 对象"""
     try:
@@ -32,7 +40,7 @@ def get_channel_infos(name, ch_id):
         special_info = (special_map[name]["new_id"], special_map[name]["new_name"])
     return original_id, special_info
 
-def merge_epg_by_displayname(merge_list, output_file):
+def append_channel_from_other_epg(merge_list, output_file):
     channels_dict = {}     # {channel_id: channel_element}
     programmes_dict = {}   # {channel_id: [programme_elements]}
     written_channels = set()
@@ -143,23 +151,21 @@ def merge_epg_files(file_list):
 def save_merged_epg(files, filename):
     merged_xml = merge_epg_files(files)
 
-    with open(f"e/{filename}", "w", encoding="utf-8") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.write(merged_xml)
 
-    with gzip.open(f"e/{filename}.gz", "wt", encoding="utf-8") as f:
+    with gzip.open(f'{filename}.gz', "wt", encoding="utf-8") as f:
         f.write(merged_xml)
 
 
-def merge_seven_days():
+def gennerate_multi_day(forward,backward,filename):
     today = datetime.today()
 
     epg_files = [
-        (today - timedelta(days=i)).strftime("e/date/epg-%Y.%m.%d.xml") for i in range(7)
+        (today - timedelta(days=i)).strftime("e/date/epg-%Y.%m.%d.xml") for i in range(forward+1)
     ]
-    epg_files.append((today + timedelta(days=1)).strftime("e/date/epg-%Y.%m.%d.xml"))
+    epg_files.append((today + timedelta(days=backward)).strftime("e/date/epg-%Y.%m.%d.xml"))
     epg_files.sort(key=lambda x: datetime.strptime(x, "e/date/epg-%Y.%m.%d.xml"))
-
-    filename = "seven-days.xml"
 
     save_merged_epg(epg_files, filename)
 

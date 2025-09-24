@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
-def write_displaynames_to_md_table(epg_file, md_file, template_md="data/README-TEMPLATE.md"):
+def update_readme(epg_file, md_file, template_md="data/README-TEMPLATE.md"):
     """
     将 EPG XML 文件的 display-name 写入 Markdown 表格，
     开头包含模板内容，再写更新时间和总频道数

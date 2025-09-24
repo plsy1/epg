@@ -1,27 +1,31 @@
-# EPG 节目单
+# IPTV 电子节目单
 
-本项目用于生成 IPTV 电子节目单（EPG），包含当天节目单以及七天回看数据。
+本项目用于生成 IPTV 电子节目单（EPG），包含当天及回看节目单。
+
+节目单数据主要来源于运营商抓取的机顶盒信息，对于缺失的频道会使用网络数据进行补充。
+
+所有生成的节目单均包含次日的数据，以便查看未来节目安排。
 
 ## 文件说明
 
-### e.xml
-当天节目单:  
+### 当天节目单
 https://raw.githubusercontent.com/plsy1/epg/main/e/e.xml
+https://raw.githubusercontent.com/plsy1/epg/main/e/e.xml.gz
 
-### seven-days.xml
-七天回看 + 往后一天的完整节目单:  
+### 三天回看
+https://raw.githubusercontent.com/plsy1/epg/main/e/three-days.xml
+https://raw.githubusercontent.com/plsy1/epg/main/e/three-days.xml.gz
+
+### 七天回看
 https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml
-
-### seven-days.xml.gz
-`seven-days.xml` 的 gzip 压缩版本，便于传输或减小体积:  
 https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 
 ## 节目单信息
 
-**更新时间**: 2025-09-24 15:00:17 UTC+8
+**更新时间**: 2025-09-24 17:07:45 UTC+8
 
-**频道总数**: 167
+**频道总数**: 169
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -192,3 +196,5 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 江苏卫视4K | 江苏卫视4K |
 | 浙江卫视4K | 浙江卫视4K |
 | 湖南卫视4K | 湖南卫视4K |
+| 爱体育 | 76 |
+| 金鹰卡通 | 187 |
