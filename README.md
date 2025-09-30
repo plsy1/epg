@@ -23,9 +23,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2025-09-30 18:02:40 UTC+8
+**更新时间**: 2025-10-01 00:00:45 UTC+8
 
-**频道总数**: 167
+**频道总数**: 166
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -74,7 +74,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 河南卫视 | 50 |
 | 江西卫视 | 51 |
 | 广西卫视 | 52 |
-| 吉林卫视 | 53 |
 | 云南卫视 | 54 |
 | 陕西卫视 | 55 |
 | 内蒙古卫视 | 56 |
