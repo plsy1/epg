@@ -23,9 +23,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2025-10-18 18:00:29 UTC+8
+**更新时间**: 2025-10-19 00:00:41 UTC+8
 
-**频道总数**: 166
+**频道总数**: 165
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -137,7 +137,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 书画 | 127 |
 | 新动漫 | 130 |
 | 城市剧场 | 131 |
-| 音乐现场 | 132 |
 | 军旅剧场 | 133 |
 | 足球 | 134 |
 | 古装剧场 | 135 |
