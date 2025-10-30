@@ -23,9 +23,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2025-10-30 18:00:30 UTC+8
+**更新时间**: 2025-10-31 00:00:42 UTC+8
 
-**频道总数**: 166
+**频道总数**: 163
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -113,7 +113,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | CCTV4K | 94 |
 | CHC家庭影院 | 100 |
 | CHC动作电影 | 101 |
-| CHC影迷电影 | 102 |
 | 先锋乒羽 | 103 |
 | CCTV3 | 107 |
 | CCTV5 | 108 |
@@ -126,11 +125,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 乐游 | 116 |
 | 法治天地 | 117 |
 | 游戏风云 | 118 |
-| 东方财经 | 119 |
 | 梨园 | 120 |
 | 武术世界 | 121 |
 | 文物宝库 | 122 |
-| 精彩影视 | 123 |
 | 茶 | 124 |
 | 快乐垂钓 | 125 |
 | 求索纪录 | 126 |
