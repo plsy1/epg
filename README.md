@@ -23,9 +23,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2025-11-06 18:00:29 UTC+8
+**更新时间**: 2025-11-07 00:00:42 UTC+8
 
-**频道总数**: 166
+**频道总数**: 165
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -64,7 +64,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 东南卫视 | 40 |
 | 湖北卫视 | 41 |
 | 广东卫视 | 42 |
-| 黑龙江卫视 | 43 |
 | 贵州卫视 | 44 |
 | 河北卫视 | 45 |
 | 重庆卫视 | 46 |
