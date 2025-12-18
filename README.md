@@ -4,26 +4,14 @@
 
 节目单数据主要来源于运营商抓取的机顶盒信息，对于缺失的频道会使用网络数据进行补充。
 
-所有生成的节目单均包含次日的数据，以便查看未来节目安排。
+## 七天回看 + 当日数据 + 次日数据
 
-## 文件说明
-
-### 当天节目单
-https://raw.githubusercontent.com/plsy1/epg/main/e/e.xml
-https://raw.githubusercontent.com/plsy1/epg/main/e/e.xml.gz
-
-### 三天回看
-https://raw.githubusercontent.com/plsy1/epg/main/e/three-days.xml
-https://raw.githubusercontent.com/plsy1/epg/main/e/three-days.xml.gz
-
-### 七天回看
-https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml
 https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 
 ## 节目单信息
 
-**更新时间**: 2025-12-18 15:33:14 UTC+8
+**更新时间**: 2025-12-18 15:48:48 UTC+8
 
 **频道总数**: 161
 
