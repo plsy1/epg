@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-01-02 00:01:22 UTC+8
+**更新时间**: 2026-01-02 06:00:42 UTC+8
 
 **频道总数**: 163
 
