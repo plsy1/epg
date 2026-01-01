@@ -11,9 +11,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-01-01 18:00:26 UTC+8
+**更新时间**: 2026-01-02 00:01:22 UTC+8
 
-**频道总数**: 165
+**频道总数**: 163
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -101,7 +101,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | CHC家庭影院 | 100 |
 | CHC动作电影 | 101 |
 | CHC影迷电影 | 102 |
-| 先锋乒羽 | 103 |
 | CCTV3 | 107 |
 | CCTV5 | 108 |
 | CCTV6 | 109 |
@@ -151,7 +150,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 武术 | 156 |
 | 美妆 | 157 |
 | 动画 | 158 |
-| 财富天下 | 159 |
 | 收视指南 | 160 |
 | 热播剧场 | 161 |
 | 经典电影 | 162 |
