@@ -11,9 +11,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-01-09 18:00:27 UTC+8
+**更新时间**: 2026-01-10 00:00:38 UTC+8
 
-**频道总数**: 163
+**频道总数**: 162
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -35,7 +35,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 山东文旅 | 21 |
 | 山东生活 | 22 |
 | 山东综艺 | 23 |
-| 山东体育 | 24 |
 | 山东新闻 | 25 |
 | 山东农科 | 26 |
 | 山东少儿 | 27 |
