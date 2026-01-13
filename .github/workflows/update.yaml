@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [epg_update]
+  schedule:
+    - cron: '0 */3 * * *'
 
 permissions:
   contents: write
