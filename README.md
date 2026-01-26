@@ -11,9 +11,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-01-26 18:00:57 UTC+8
+**更新时间**: 2026-01-27 00:01:09 UTC+8
 
-**频道总数**: 164
+**频道总数**: 157
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -72,7 +72,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 生态环境 | 62 |
 | 卡酷少儿 | 63 |
 | 优漫卡通 | 64 |
-| 哈哈炫动 | 65 |
 | 嘉佳卡通 | 66 |
 | 兵团卫视 | 67 |
 | 农林卫视 | 68 |
@@ -101,7 +100,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | CCTV4K | 94 |
 | CHC家庭影院 | 100 |
 | CHC动作电影 | 101 |
-| CHC影迷电影 | 102 |
 | CCTV3 | 107 |
 | CCTV5 | 108 |
 | CCTV6 | 109 |
@@ -113,16 +111,12 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 乐游 | 116 |
 | 法治天地 | 117 |
 | 游戏风云 | 118 |
-| 东方财经 | 119 |
 | 梨园 | 120 |
 | 武术世界 | 121 |
 | 文物宝库 | 122 |
-| 精彩影视 | 123 |
 | 茶 | 124 |
 | 快乐垂钓 | 125 |
 | 求索纪录 | 126 |
-| 书画 | 127 |
-| 新动漫 | 130 |
 | 城市剧场 | 131 |
 | 音乐现场 | 132 |
 | 军旅剧场 | 133 |
@@ -163,7 +157,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 爱体育 | 169 |
 | 爱电影 | 170 |
 | 爱大剧 | 171 |
-| 四海钓鱼 | 183 |
 | 环球旅游 | 184 |
 | 优优宝贝 | 185 |
 | 北京纪实科教 | 189 |
