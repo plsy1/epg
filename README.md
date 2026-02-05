@@ -11,9 +11,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-02-05 12:00:53 UTC+8
+**更新时间**: 2026-02-05 17:03:25 UTC+8
 
-**频道总数**: 132
+**频道总数**: 156
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -35,6 +35,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 山东文旅 | 21 |
 | 山东生活 | 22 |
 | 山东综艺 | 23 |
+| 山东体育 | 24 |
 | 山东新闻 | 25 |
 | 山东农科 | 26 |
 | 山东少儿 | 27 |
@@ -51,6 +52,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 东南卫视 | 40 |
 | 湖北卫视 | 41 |
 | 广东卫视 | 42 |
+| 黑龙江卫视 | 43 |
 | 贵州卫视 | 44 |
 | 河北卫视 | 45 |
 | 重庆卫视 | 46 |
@@ -60,13 +62,16 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 河南卫视 | 50 |
 | 江西卫视 | 51 |
 | 广西卫视 | 52 |
+| 吉林卫视 | 53 |
 | 云南卫视 | 54 |
 | 陕西卫视 | 55 |
 | 内蒙古卫视 | 56 |
 | 新疆卫视 | 58 |
 | 甘肃卫视 | 59 |
+| 青海卫视 | 60 |
 | 西藏卫视 | 61 |
 | 优漫卡通 | 64 |
+| 哈哈炫动 | 65 |
 | 嘉佳卡通 | 66 |
 | 兵团卫视 | 67 |
 | 农林卫视 | 68 |
@@ -78,6 +83,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 延边卫视 | 75 |
 | 谍战剧场 | 78 |
 | CCTV17 | 79 |
+| 宁夏卫视 | 80 |
 | 三沙卫视 | 81 |
 | 中国交通 | 83 |
 | 发现之旅 | 84 |
@@ -91,10 +97,24 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | CGTN阿语 | 92 |
 | CGTN俄语 | 93 |
 | CCTV4K | 94 |
+| CHC家庭影院 | 100 |
+| CHC动作电影 | 101 |
+| CHC影迷电影 | 102 |
 | CCTV3 | 107 |
 | CCTV5 | 108 |
 | CCTV6 | 109 |
 | CCTV8 | 110 |
+| 动漫秀场 | 111 |
+| 生活时尚 | 114 |
+| 都市剧场 | 115 |
+| 法治天地 | 117 |
+| 游戏风云 | 118 |
+| 东方财经 | 119 |
+| 梨园 | 120 |
+| 武术世界 | 121 |
+| 文物宝库 | 122 |
+| 快乐垂钓 | 125 |
+| 新动漫 | 130 |
 | 城市剧场 | 131 |
 | 音乐现场 | 132 |
 | 军旅剧场 | 133 |
@@ -123,6 +143,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 武术 | 156 |
 | 美妆 | 157 |
 | 动画 | 158 |
+| 财富天下 | 159 |
 | 收视指南 | 160 |
 | 热播剧场 | 161 |
 | 经典电影 | 162 |
@@ -135,6 +156,8 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 爱体育 | 169 |
 | 爱电影 | 170 |
 | 爱大剧 | 171 |
+| 四海钓鱼 | 183 |
+| 环球旅游 | 184 |
 | 北京纪实科教 | 189 |
 | 北京卫视4K | 190 |
 | 深圳卫视4K | 191 |
@@ -149,3 +172,4 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 泰安经济生活 | 282 |
 | 泰山电视频道 | 489 |
 | 泰安综合 | 709 |
+| 汽摩 | 889 |
