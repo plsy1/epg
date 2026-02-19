@@ -11,9 +11,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-02-19 18:00:33 UTC+8
+**更新时间**: 2026-02-20 00:00:38 UTC+8
 
-**频道总数**: 155
+**频道总数**: 156
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -138,6 +138,7 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 墨宝 | 151 |
 | 光影 | 152 |
 | 戏曲 | 153 |
+| 爱生活 | 154 |
 | 解密 | 155 |
 | 武术 | 156 |
 | 美妆 | 157 |
