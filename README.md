@@ -11,9 +11,9 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 
 ## 节目单信息
 
-**更新时间**: 2026-03-11 18:00:26 UTC+8
+**更新时间**: 2026-03-12 00:00:36 UTC+8
 
-**频道总数**: 156
+**频道总数**: 155
 
 | 频道名称 | 频道号 |
 |--------------|------------|
@@ -143,7 +143,6 @@ https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 | 武术 | 156 |
 | 美妆 | 157 |
 | 动画 | 158 |
-| 财富天下 | 159 |
 | 收视指南 | 160 |
 | 热播剧场 | 161 |
 | 经典电影 | 162 |
